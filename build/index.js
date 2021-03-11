@@ -2162,14 +2162,14 @@ if (reversed == null) { reversed = false; }
 	// Scenes
 	this.Scenes = new lib.Scenes();
 	this.Scenes.name = "Scenes";
-	this.Scenes.setTransform(1194.1,540,1,1,0,0,0,960,540);
+	this.Scenes.setTransform(960,540,1,1,0,0,0,960,540);
 
 	this.timeline.addTween(cjs.Tween.get(this.Scenes).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(1194.1,540,4800.1,540.3);
+p.nominalBounds = new cjs.Rectangle(960,540,4800.1,540.3);
 // library properties:
 lib.properties = {
 	id: '6D8E34D5D95C4BFDB5DC718CB2FE9D07',
