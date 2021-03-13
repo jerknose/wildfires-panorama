@@ -2808,12 +2808,12 @@ if (reversed == null) { reversed = false; }
 		//	createjs.Tween.get(playlist[sounds[data.id].id]).to({volume:volume}, data.duration);
 		//}
 		 
-		createjs.Sound.registerSound("sounds/birdsong.mp3", "birds");
-		createjs.Sound.registerSound("sounds/fireplace.wav", "fire");
-		createjs.Sound.registerSound("sounds/newsreport.wav", "news");
-		createjs.Sound.registerSound("sounds/dog.wav", "dog");
-		createjs.Sound.registerSound("sounds/carstart.mp3", "car");
-		createjs.Sound.registerSound("sounds/honking.wav", "honk");
+		createjs.Sound.registerSound("claudiabrenner/wildfires-panorama/sounds/birdsong.mp3", "birds");
+		createjs.Sound.registerSound("claudiabrenner/wildfires-panorama/sounds/fireplace.wav", "fire");
+		createjs.Sound.registerSound("claudiabrenner/wildfires-panorama/sounds/newsreport.wav", "news");
+		createjs.Sound.registerSound("claudiabrenner/wildfires-panorama/sounds/dog.wav", "dog");
+		createjs.Sound.registerSound("claudiabrenner/wildfires-panorama/sounds/carstart.mp3", "car");
+		createjs.Sound.registerSound("claudiabrenner/wildfires-panorama/sounds/honking.wav", "honk");
 		createjs.Sound.addEventListener("fileload", handleLoad, this);
 		
 		function handleLoad(event) {
