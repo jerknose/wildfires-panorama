@@ -2809,11 +2809,11 @@ if (reversed == null) { reversed = false; }
 		//}
 		 
 		createjs.Sound.registerSound("claudiabrenner/wildfires-panorama/sounds/birdsong.mp3", "birds");
-		createjs.Sound.registerSound("claudiabrenner/wildfires-panorama/sounds/fireplace.wav", "fire");
-		createjs.Sound.registerSound("claudiabrenner/wildfires-panorama/sounds/newsreport.wav", "news");
-		createjs.Sound.registerSound("claudiabrenner/wildfires-panorama/sounds/dog.wav", "dog");
+		createjs.Sound.registerSound("claudiabrenner/wildfires-panorama/sounds/fireplace.mp3", "fire");
+		createjs.Sound.registerSound("claudiabrenner/wildfires-panorama/sounds/newsreport.mp3", "news");
+		createjs.Sound.registerSound("claudiabrenner/wildfires-panorama/sounds/dog.mp3", "dog");
 		createjs.Sound.registerSound("claudiabrenner/wildfires-panorama/sounds/carstart.mp3", "car");
-		createjs.Sound.registerSound("claudiabrenner/wildfires-panorama/sounds/honking.wav", "honk");
+		createjs.Sound.registerSound("claudiabrenner/wildfires-panorama/sounds/honking.mp3", "honk");
 		createjs.Sound.addEventListener("fileload", handleLoad, this);
 		
 		function handleLoad(event) {
