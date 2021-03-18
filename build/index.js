@@ -3,15 +3,18 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"index_atlas_1", frames: [[1750,383,69,130],[1821,395,69,130],[240,326,173,68],[1892,395,69,130],[1963,395,69,130],[415,326,173,68],[240,396,69,130],[311,396,69,130],[590,326,173,68],[382,396,69,130],[453,396,69,130],[765,326,173,68],[524,396,69,130],[595,396,69,130],[1470,227,164,164],[940,326,173,68],[1828,217,210,176],[1374,0,225,225],[0,306,118,200],[389,0,361,324],[1601,0,225,225],[120,306,118,200],[1636,227,154,154],[752,0,361,324],[1569,393,62,90],[1374,227,94,303],[0,0,387,304],[1470,393,97,102],[1115,0,257,422],[1828,0,218,215],[666,396,62,90],[1636,383,112,102]]},
-		{name:"index_atlas_2", frames: [[0,1248,707,200],[0,722,689,524],[0,1450,707,200],[691,722,689,524],[0,1652,707,200],[1382,1221,415,623],[709,1846,707,200],[1855,0,92,1899],[709,1248,356,345],[1382,589,468,630],[1282,0,571,587],[0,0,1280,720]]},
-		{name:"index_atlas_3", frames: [[760,0,1076,1143],[0,0,758,1917]]},
-		{name:"index_atlas_4", frames: [[0,0,1537,1024]]},
-		{name:"index_atlas_5", frames: [[0,0,1500,1101]]},
-		{name:"index_atlas_6", frames: [[0,0,1028,1139]]},
-		{name:"index_atlas_7", frames: [[0,0,1076,931],[0,933,1076,931]]},
-		{name:"index_atlas_8", frames: [[0,0,1800,1198]]},
-		{name:"index_atlas_9", frames: [[0,0,1800,1198]]}
+		{name:"index_atlas_1", frames: [[1289,810,427,379],[385,483,707,200],[385,685,707,200],[1289,1802,370,93],[0,686,150,1213],[152,1539,589,171],[0,168,383,516],[152,686,224,193],[1109,168,69,130],[1109,300,69,130],[524,1712,173,68],[1866,444,69,130],[1937,404,69,130],[1446,1897,173,68],[1718,766,69,130],[1718,898,69,130],[524,1782,173,68],[1718,1030,69,130],[1789,766,69,130],[699,1735,173,68],[1789,898,69,130],[1789,1030,69,130],[1700,444,164,164],[874,1735,173,68],[774,1114,210,176],[1661,1761,370,93],[515,1311,438,210],[1289,1191,517,262],[1701,0,225,225],[1928,0,118,200],[152,887,361,324],[774,887,225,225],[1928,202,118,200],[1700,610,154,154],[152,1213,361,324],[0,1901,1444,88],[0,0,1193,166],[1195,0,92,1899],[1661,1856,370,93],[743,1523,438,210],[1049,1735,62,90],[1113,1735,62,90],[1001,887,112,102],[152,1712,370,130],[1289,405,409,403],[1289,0,410,403],[1013,168,94,303],[1647,1455,387,304],[1001,991,97,102],[515,887,257,422],[1701,227,218,215],[1289,1455,356,345],[385,168,626,313]]},
+		{name:"index_atlas_2", frames: [[0,0,1292,1540]]},
+		{name:"index_atlas_3", frames: [[0,0,1187,1493]]},
+		{name:"index_atlas_4", frames: [[1232,0,647,393],[573,632,337,815],[1232,395,648,373],[0,1570,899,357],[815,0,415,623],[345,0,468,630],[1540,770,423,476],[0,0,343,979],[0,981,571,587],[901,1449,626,417],[912,770,626,352]]},
+		{name:"index_atlas_5", frames: [[760,0,1076,1143],[0,0,758,1917]]},
+		{name:"index_atlas_6", frames: [[951,0,689,524],[951,526,689,524],[774,1052,711,499],[0,1708,1738,326],[0,0,949,840],[0,842,772,864],[1642,0,343,979]]},
+		{name:"index_atlas_7", frames: [[0,1131,1406,692],[0,0,867,1129],[869,0,834,970]]},
+		{name:"index_atlas_8", frames: [[934,0,1076,931],[0,0,932,1144],[934,933,1076,931]]},
+		{name:"index_atlas_9", frames: [[0,0,1257,930]]},
+		{name:"index_atlas_10", frames: [[0,0,1028,1139]]},
+		{name:"index_atlas_11", frames: [[0,0,1537,1024]]},
+		{name:"index_atlas_12", frames: [[0,0,2022,1957]]}
 ];
 
 
@@ -35,421 +38,669 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_73 = function() {
-	this.initialize(img.CachedBmp_73);
+(lib.CachedBmp_100 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_86 = function() {
+	this.initialize(img.CachedBmp_86);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2610,130);
 
 
-(lib.CachedBmp_72 = function() {
-	this.initialize(ss["index_atlas_2"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_71 = function() {
-	this.initialize(ss["index_atlas_7"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_70 = function() {
-	this.initialize(ss["index_atlas_2"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_69 = function() {
-	this.initialize(img.CachedBmp_69);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,2610,256);
-
-
-(lib.CachedBmp_68 = function() {
-	this.initialize(ss["index_atlas_2"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_67 = function() {
-	this.initialize(ss["index_atlas_7"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_66 = function() {
-	this.initialize(ss["index_atlas_3"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_65 = function() {
-	this.initialize(ss["index_atlas_2"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_64 = function() {
-	this.initialize(ss["index_atlas_6"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_63 = function() {
-	this.initialize(img.CachedBmp_63);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,2610,256);
-
-
-(lib.CachedBmp_62 = function() {
-	this.initialize(img.CachedBmp_62);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,3836,1929);
-
-
-(lib.CachedBmp_61 = function() {
-	this.initialize(ss["index_atlas_2"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_60 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_58 = function() {
+(lib.CachedBmp_85 = function() {
 	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_56 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_54 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_52 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_50 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_48 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_46 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_44 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_42 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_40 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_38 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(11);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_36 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(12);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_34 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(13);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_59 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(14);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_32 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(15);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_55 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(16);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_30 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(17);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_28 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(18);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_26 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(19);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_24 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(20);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_22 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(21);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_29 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(22);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_20 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(23);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_25 = function() {
-	this.initialize(ss["index_atlas_2"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_18 = function() {
-	this.initialize(img.CachedBmp_18);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,2610,256);
-
-
-(lib.CachedBmp_17 = function() {
-	this.initialize(img.CachedBmp_17);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,2610,256);
-
-
-(lib.CachedBmp_16 = function() {
-	this.initialize(img.CachedBmp_16);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,2856,1898);
-
-
-(lib.CachedBmp_15 = function() {
-	this.initialize(ss["index_atlas_2"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_14 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(24);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_75 = function() {
-	this.initialize(ss["index_atlas_3"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_74 = function() {
-	this.initialize(ss["index_atlas_2"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_11 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(25);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_10 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(26);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_9 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(27);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_8 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(28);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_7 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(29);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_6 = function() {
-	this.initialize(ss["index_atlas_2"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_5 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(30);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_13 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(31);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_3 = function() {
-	this.initialize(ss["index_atlas_2"]);
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_2 = function() {
-	this.initialize(ss["index_atlas_2"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_1 = function() {
-	this.initialize(img.CachedBmp_1);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,2869,1914);
-
-
-(lib._401_Gridlock = function() {
-	this.initialize(ss["index_atlas_4"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._6415080_090820kabc11pmbobcatfirevidCCvid = function() {
-	this.initialize(ss["index_atlas_2"]);
-	this.gotoAndStop(11);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.feat1800x0ccenter = function() {
-	this.initialize(ss["index_atlas_9"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.feat1800x0ccenterjpgcopy = function() {
+(lib.CachedBmp_84 = function() {
 	this.initialize(ss["index_atlas_8"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.stockphotocontemporarysplitlevelhousewithgarageinfront449308282 = function() {
+(lib.CachedBmp_83 = function() {
+	this.initialize(ss["index_atlas_6"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_82 = function() {
+	this.initialize(img.CachedBmp_82);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2610,256);
+
+
+(lib.CachedBmp_81 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_14 = function() {
+	this.initialize(ss["index_atlas_7"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_13 = function() {
+	this.initialize(ss["index_atlas_3"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_12 = function() {
+	this.initialize(img.CachedBmp_12);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2162,1304);
+
+
+(lib.CachedBmp_11 = function() {
+	this.initialize(ss["index_atlas_2"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_10 = function() {
+	this.initialize(ss["index_atlas_8"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_9 = function() {
+	this.initialize(ss["index_atlas_7"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_126 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_80 = function() {
+	this.initialize(ss["index_atlas_8"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_79 = function() {
 	this.initialize(ss["index_atlas_5"]);
 	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_78 = function() {
+	this.initialize(ss["index_atlas_6"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_77 = function() {
+	this.initialize(ss["index_atlas_10"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_108 = function() {
+	this.initialize(ss["index_atlas_4"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_99 = function() {
+	this.initialize(img.CachedBmp_99);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,3807,518);
+
+
+(lib.CachedBmp_98 = function() {
+	this.initialize(img.CachedBmp_98);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,3798,1391);
+
+
+(lib.CachedBmp_97 = function() {
+	this.initialize(img.CachedBmp_97);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,3827,1487);
+
+
+(lib.CachedBmp_96 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_95 = function() {
+	this.initialize(ss["index_atlas_7"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_94 = function() {
+	this.initialize(ss["index_atlas_4"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_93 = function() {
+	this.initialize(ss["index_atlas_4"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_92 = function() {
+	this.initialize(ss["index_atlas_6"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_91 = function() {
+	this.initialize(ss["index_atlas_6"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_90 = function() {
+	this.initialize(img.CachedBmp_90);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2834,505);
+
+
+(lib.CachedBmp_89 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_88 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_87 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_76 = function() {
+	this.initialize(img.CachedBmp_76);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2610,256);
+
+
+(lib.CachedBmp_124 = function() {
+	this.initialize(ss["index_atlas_12"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_74 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_72 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_70 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_68 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(11);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_66 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(12);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_64 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(13);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_62 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(14);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_60 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(15);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_58 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(16);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_56 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(17);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_54 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(18);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_52 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(19);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_50 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(20);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_48 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(21);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_73 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(22);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_46 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(23);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_69 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(24);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_123 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(25);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_125 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(26);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_106 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(27);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_105 = function() {
+	this.initialize(ss["index_atlas_4"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_44 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(28);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_42 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(29);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_40 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(30);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_38 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(31);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_36 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(32);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_43 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(33);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_34 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(34);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_39 = function() {
+	this.initialize(ss["index_atlas_4"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_32 = function() {
+	this.initialize(img.CachedBmp_32);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2610,256);
+
+
+(lib.CachedBmp_31 = function() {
+	this.initialize(img.CachedBmp_31);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2610,256);
+
+
+(lib.CachedBmp_120 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(35);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_119 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(36);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_118 = function() {
+	this.initialize(img.CachedBmp_118);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2763,213);
+
+
+(lib.CachedBmp_25 = function() {
+	this.initialize(img.CachedBmp_25);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2869,1913);
+
+
+(lib.CachedBmp_24 = function() {
+	this.initialize(ss["index_atlas_5"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_23 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(37);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_8 = function() {
+	this.initialize(ss["index_atlas_4"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_117 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(38);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_116 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(39);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_27 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(40);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_16 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(41);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_26 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(42);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_19 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(43);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_101 = function() {
+	this.initialize(ss["index_atlas_6"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_17 = function() {
+	this.initialize(ss["index_atlas_6"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_22 = function() {
+	this.initialize(ss["index_atlas_4"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_21 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(44);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_20 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(45);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_7 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(46);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_6 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(47);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_5 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(48);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_4 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(49);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_3 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(50);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_2 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(51);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_128 = function() {
+	this.initialize(ss["index_atlas_6"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_127 = function() {
+	this.initialize(ss["index_atlas_4"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_1 = function() {
+	this.initialize(ss["index_atlas_4"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._401_Gridlock = function() {
+	this.initialize(ss["index_atlas_11"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Image = function() {
+	this.initialize(ss["index_atlas_4"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Image_1 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(52);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Image_2 = function() {
+	this.initialize(ss["index_atlas_9"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Image_1_1 = function() {
+	this.initialize(ss["index_atlas_4"]);
+	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -497,7 +748,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// Text
-	this.instance = new lib.CachedBmp_73();
+	this.instance = new lib.CachedBmp_86();
 	this.instance.setTransform(25.1,23.35,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -545,20 +796,20 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// Door
-	this.instance = new lib.CachedBmp_70();
+	this.instance = new lib.CachedBmp_83();
 	this.instance.setTransform(84.8,133.4,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	// BG
-	this.instance_1 = new lib.CachedBmp_71();
+	this.instance_1 = new lib.CachedBmp_84();
 	this.instance_1.setTransform(0,106.4,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#221F20").p("EAmmgAuQgtirhPjPQguh8hnj2QiDk4hIiZQh5j/h8i9QhnifhrhrQiBiBiPhBQhagph4gYQhTgQiIgPQwThvwPCSQhDAJgnAJQg7ANgrAUIABgNIgPAUQgQAHgRAMIgEAaQjKD8hqCkQibDvhIDcQgZBOgvCdQgwCFhFBMQgMAOgZAaQgWAXgMATQggA2AGBkQACAbAFA4QAEAxgEAhQgDAjgOAqQgGAWgUA1Qi/IFgMInQgCByAJBOQAMBpAiBQQAmBXBFBFQBEBEBZApQhZgehEg/QgPAUgGAfQgDAUgBAkQgFF5BQF0QAFAWAEAKQAHARALAKQAPANAjAGQBLAMB1gNQAygFBkgLQBXgHA/AIQAXAEAJAAQARAAANgFQAsgUgFhZIggo3QDHBdCgAmQDGAuCugaQAxgICugtQCJgkBYAAQA1AABQAMQCBAVAEAAQCuAWEegjQBNgJCagTQCFgOBjgBQBNAAApANQASAFAhAOQAiAOARAFQAlALAuACQAiABA0gEQDRgQDrg+QC/gzDxhaIhEAhQgnAUgSALQgeAUgQAYQgPAYgHAhQgEAYgBAnQgFCDALCLQAGA+AOAnQAUA1AoAXQAMAGALAEIACApIAAgpQAYAHAtADIgBAqIADgqQBKAEA9ACIAAAOIACgOQAxABAwAAIAAADIABgDQBsAABigFQAegBARgFQAZgGAPgPQANgNAHgVQAEgNAFgaQAskSAHiSQAKjqg5iyIgLgMQADAAACgCQACgDgCgCQgCgCgEAAQAyg/AahgQAUhLAIhqQAlneh6nOgA+uXkIAIgBIAGAEgA63ZHQgdAOgngVQgBgBg/gsQgTgNgXgKIAaACQBZAuA7Abg");
+	this.shape.graphics.f().s("#221F20").p("EAmmgAuQgtirhPjPQguh8hnj2QiDk4hIiZQh5j/h8i9QhnifhrhrQiBiBiPhBQhagph4gYQhTgQiIgPQwThvwPCSQhDAJgnAJQg7ANgrAUIABgNIgPAUQgQAHgRAMIgEAaQjKD8hqCkQibDvhIDcQgZBOgvCdQgwCFhFBMQgMAOgZAaQgWAXgMATQggA2AGBkQACAbAFA4QAEAxgEAhQgDAjgOAqQgGAWgUA1Qi/IFgMInQgCByAJBOQAMBpAiBQQAmBXBFBFQBEBEBZApQhZgehEg/QgPAUgGAfQgDAUgBAkQgFF5BQF0QAFAWAEAKQAHARALAKQAPANAjAGQBLAMB1gNQAygFBkgLQBXgHA/AIQAXAEAJAAQARAAANgFQAsgUgFhZIggo3QDHBdCgAmQDGAuCugaQAxgICugtQCJgkBYAAQA1AABQAMQCBAVAEAAQCuAWEegjQBNgJCagTQCFgOBjgBQBNAAApANQASAFAhAOQAiAOARAFQAlALAuACQAiABA0gEQDRgQDrg+QC/gzDxhaIhEAhQgnAUgSALQgeAUgQAYQgPAYgHAhQgEAYgBAnQgFCDALCLQAGA+AOAnQAUA1AoAXQAMAGALAEIACApIAAgpQAYAHAtADIgBAqIADgqQBKAEA9ACIAAAOIACgOQAxABAwAAIAAADIABgDQBsAABigFQAegBARgFQAZgGAPgPQANgNAHgVQAEgNAFgaQAskSAHiSQAKjqg5iyIgLgMQADAAACgCQACgDgCgCQgCgCgEAAQAyg/AahgQAUhLAIhqQAlneh6nOgA63ZHQgdAOgngVQgBgBg/gsQgTgNgXgKIAaACQBZAuA7AbgA+uXkIAIgBIAGAEg");
 	this.shape.setTransform(257.5512,339.5863);
 
 	this.shape_1 = new cjs.Shape();
@@ -599,7 +850,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// Text
-	this.instance = new lib.CachedBmp_69();
+	this.instance = new lib.CachedBmp_82();
 	this.instance.setTransform(25.1,23.35,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -782,6 +1033,149 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.Packable1, new cjs.Rectangle(-1,-1,90,90), null);
 
 
+(lib.GarageBG = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// plants___driveway
+	this.instance = new lib.CachedBmp_9();
+	this.instance.setTransform(605.95,660.5,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	// windows___drive_way
+	this.instance_1 = new lib.CachedBmp_10();
+	this.instance_1.setTransform(357.05,445.2,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
+
+	// portico
+	this.instance_2 = new lib.CachedBmp_11();
+	this.instance_2.setTransform(297.15,445.9,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1));
+
+	// door___driveway
+	this.instance_3 = new lib.CachedBmp_12();
+	this.instance_3.setTransform(308.65,760.2,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1));
+
+	// house___side_wall_driveway
+	this.instance_4 = new lib.CachedBmp_13();
+	this.instance_4.setTransform(299.05,444.95,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(1));
+
+	// driveway___door_stairs
+	this.instance_5 = new lib.CachedBmp_14();
+	this.instance_5.setTransform(304.6,1051.5,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(1));
+
+	// Images
+	this.instance_6 = new lib.Image_2();
+	this.instance_6.setTransform(1416.85,447,1.1359,1.1359,0,0,180);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.GarageBG, new cjs.Rectangle(-11,445,1427.9,1058.4), null);
+
+
+(lib.Countdown5 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	this.isSingleFrame = false;
+	// timeline functions:
+	this.frame_0 = function() {
+		if(this.isSingleFrame) {
+			return;
+		}
+		if(this.totalFrames == 1) {
+			this.isSingleFrame = true;
+		}
+		this.stop()
+		
+		var CountdownText = this.CountdownText;
+		var Countdown15Interval;
+		var countDownDate;
+		
+		function AddMinutesToDate(date, minutes) {
+		    return new Date(date.getTime() + minutes * 60000);
+		}
+		
+		function updateTimer() {
+			var now = new Date().getTime();
+			
+			var distance = countDownDate - now;
+			
+			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			if (minutes < 10) {
+				minutes = " " + minutes
+			}
+			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+			if (seconds < 10) {
+				seconds = "0" + seconds
+			}
+			CountdownText.text = minutes + ":" + seconds;
+		}
+		
+		function startTimer() {
+			countDownDate = AddMinutesToDate(new Date(), 5).getTime();
+			clearInterval(Countdown15Interval)
+			Countdown15Interval = setInterval(updateTimer, 1000);
+			updateTimer()
+		}
+		
+		this.startTimer = startTimer;
+		
+		this.startTimer();
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+
+	// Text
+	this.CountdownText = new cjs.Text("", "italic bold 53px 'PT Sans'");
+	this.CountdownText.name = "CountdownText";
+	this.CountdownText.lineHeight = 64;
+	this.CountdownText.lineWidth = 135;
+	this.CountdownText.parent = this;
+	this.CountdownText.setTransform(44.05,46.45);
+
+	this.timeline.addTween(cjs.Tween.get(this.CountdownText).wait(1));
+
+	// BG
+	this.instance = new lib.CachedBmp_126();
+	this.instance.setTransform(25.3,0,0.5,0.5);
+
+	this.instance_1 = new lib.CachedBmp_125();
+	this.instance_1.setTransform(0,1.2,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.Countdown5, new cjs.Rectangle(0,0,219,110.8), null);
+
+
 (lib.CarFrame = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -805,17 +1199,17 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
 
 	// Door
-	this.instance = new lib.CachedBmp_65();
+	this.instance = new lib.CachedBmp_78();
 	this.instance.setTransform(84.8,133.4,0.5,0.5);
 	this.instance._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({_off:false},0).wait(1));
 
 	// BG
-	this.instance_1 = new lib.CachedBmp_66();
+	this.instance_1 = new lib.CachedBmp_79();
 	this.instance_1.setTransform(0,0,0.5,0.5);
 
-	this.instance_2 = new lib.CachedBmp_67();
+	this.instance_2 = new lib.CachedBmp_80();
 	this.instance_2.setTransform(0,106.4,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1}]}).to({state:[{t:this.instance_2}]},1).wait(1));
@@ -849,7 +1243,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_64();
+	this.instance = new lib.CachedBmp_77();
 	this.instance.setTransform(-1,1.55,0.5,0.5);
 
 	this.shape = new cjs.Shape();
@@ -879,14 +1273,161 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_1
-	this.instance = new lib._6415080_090820kabc11pmbobcatfirevidCCvid();
+	// FlashAICB
+	this.instance = new lib.CachedBmp_108();
+	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.TVScreen, new cjs.Rectangle(0,0,1280,720), null);
+}).prototype = getMCSymbolPrototype(lib.TVScreen, new cjs.Rectangle(0,0,323.5,196.5), null);
+
+
+(lib.Scene2BG = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// plants___driveway
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#0E0E0E").s().p("AgMAAQAMgRAKAAQAOAAgLARQgLASgLAAQgOAAALgSg");
+	this.shape.setTransform(868.2453,-151.575);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+	// portico
+	this.instance = new lib.CachedBmp_87();
+	this.instance.setTransform(889.5,121.55,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	// plant__living_room
+	this.instance_1 = new lib.CachedBmp_88();
+	this.instance_1.setTransform(133.65,-17.1,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
+
+	// pillows_sofa
+	this.instance_2 = new lib.CachedBmp_89();
+	this.instance_2.setTransform(-344.15,92.85,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1));
+
+	// sofa_back
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#0E0E0E").s().p("AkGJbQhIgDiCgIIjKgLQhFgDh+AHQiHAJg8gCQgzgBgagGQgqgJgXgbQgTgVgRgnQgSgsgKgUQhSi1hWjCIiAkvQhNi1hCh1QgDgFAHgJQAFgHAFgEQA5gmBmgEQASgBCVAGIIvAVQFIANKRAXQI7AXGdAmIB2AKQBFAHAxAJQBdATAeA2QANAWAJAjIANA9IAZByQAbCCASBhQAWByAVCGIASBoQAKA+ABAqQACBRhbAEQgbABgzgGQg2gHgRABQnNAZnFABIhCAAQmAAAlrgQgAqnIhIC8AKQDXAMCsAGQMGAcMtgsIACAAIABAAQAVAAAjADIA6AEQAoACAHgCQAWgFgDgeQgFg0gLhJIgUh8Qgojxg0jqQgLhEgIgjQgQg/gcgeQgZgagwgMQgZgGg7gHQi4gVkLgTQjHgOj2gLIm9gTI06gzIhcgEQg3gCgmADIhFAGQgZAEgSAHQAeA2AfBGQARAlAtBoQBbDVBRC0QBaDMBHCZIATAoQAMAXAOAMQATARAdAGQATAFAiABQApADA2gEIBegHQA0gEA9AAIBLABg");
+	this.shape_1.setTransform(-280.6202,114.429);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(1));
+
+	// sofa_n_chair
+	this.instance_3 = new lib.CachedBmp_90();
+	this.instance_3.setTransform(-478.35,56.2,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1));
+
+	// sofa_n_chair___arm_sides_back
+	this.instance_4 = new lib.CachedBmp_91();
+	this.instance_4.setTransform(-120.75,135.5,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(1));
+
+	// TV
+	this.instance_5 = new lib.CachedBmp_92();
+	this.instance_5.setTransform(291.25,-185.65,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(1));
+
+	// tv_table
+	this.instance_6 = new lib.CachedBmp_93();
+	this.instance_6.setTransform(305.65,52.3,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(1));
+
+	// rug
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f("#0E0E0E").s().p("Eg0lACYQALgRALgBQLjgULfgaQUcgvUcg/QULhAUthTQAOAAgLARQgLASgMABQraAurlApQ0KBG0uA3Q0LA20vAlIgBAAQgNAAALgSg");
+	this.shape_2.setTransform(-337.0377,254.775);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f("#0E0E0E").s().p("AJ+IeIABAAQpahOsLhcMgnKgEiMgnXgEjQgLgBANgRQAOgSALABMA9cAHGQMKBaHgA5QKxBSI2BJQAGABAAAEQIvg7IEhCQd+jwdsl1IhQgHMhHBgEmQgOgBALgRQALgSAMABMBHvAEoQAcACA8AHQA1AEAjgFQANgCgLASQgLASgLACQofBso6BmQ++Fh/ZDUIgCAAQgLAAAJgQg");
+	this.shape_3.setTransform(-100.6051,293.6034);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_3},{t:this.shape_2}]}).wait(1));
+
+	// bannistair
+	this.instance_7 = new lib.CachedBmp_94();
+	this.instance_7.setTransform(-874.75,-331.4,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(1));
+
+	// stairs
+	this.instance_8 = new lib.CachedBmp_95();
+	this.instance_8.setTransform(-886.3,-243.25,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(1));
+
+	// ceiling
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.f("#0E0E0E").s().p("EhMmAIbQoIgHmggoQuChYtpj8QpjivpGj8QAHAFgOAQQgOAQgJgFIgDgCIAAAAIgDgCInEkAQgLgGAOgRIACgDIACgCQAMgLAIAEIArAWIABgBQAMgOAIAAMEg1AANQAHAAABAEQAOBihIBKQheBgi6AjQhAAMhhAIQhpAJgvAFQp/BFlNAiQxeBytPA6QvKBEvmAKQklAEqCA8QpeA4lJgDQlDgDiYADQkHAEjTAUQnJAtn9AjQtcA7xJAiQmzANohALIvUASQnVAIklAAIiwgBgEiNMgGrQEIB7EHBpQMbE8NJCxQNICwNXAcQGJANIXgHQE2gEJqgOQRbgVLMgbQPZglNKhCQBTgHF0gkQEXgcCwgIQCdgHEhAGQE0AFCKgEQEHgJJig2QIxgyE5gDQNfgJPShEQMdg3QPhoQGGgoIPg5IDigXQCIgOBZgMQB0gQBUgjQCBg3AAhVQAAgxhWgFQhkAEgcAAMkcJgAMg");
+	this.shape_4.setTransform(90.097,-423.6984);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape_4).wait(1));
+
+	// curtains
+	this.instance_9 = new lib.CachedBmp_96();
+	this.instance_9.setTransform(-229.85,-379.3,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(1));
+
+	// back_wall
+	this.instance_10 = new lib.CachedBmp_97();
+	this.instance_10.setTransform(-899.65,-480.65,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(1));
+
+	// back_back_wall__background
+	this.instance_11 = new lib.CachedBmp_98();
+	this.instance_11.setTransform(-895.8,-444.45,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(1));
+
+	// floor
+	this.instance_12 = new lib.CachedBmp_99();
+	this.instance_12.setTransform(-892.3,222.85,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(1));
+
+	// Images
+	this.instance_13 = new lib.Image_1();
+	this.instance_13.setTransform(1017.95,-477,3.0367,3.0367,0,0,180);
+
+	this.instance_14 = new lib.Image_1_1();
+	this.instance_14.setTransform(258,-51,0.0241,0.0241);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_14},{t:this.instance_13}]}).wait(1));
+
+	// Layer_1
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.f("#0E0E0E").s().p("AgsB7QgKhrAhhlQAFgPAMgNQANgOAOgDQANgDAHAGQAHAGgFANQgcBaAIBYQACAbgdAXQgKAHgNAEIgJABQgJAAgBgJg");
+	this.shape_5.setTransform(-205.5944,-397.2306);
+
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.f("#0E0E0E").s().p("Aj1L2QhxiIgQjGQgNirA8i8QAXhGAphZQgKgjgMgjIiSB4QgJAGgKAEQgPAFgFgHQhRh7AyioQAniDBtiIQAug4AwgbQBCgkAzAiQBJAygyCfQgHAXgkAQQgjARAKgiQAQgyABgiQACg0gdgZQgrgkgyAwQgVAUgrBEQhFBqgTBeQgWBsAwBVICWh6QALgIALgDQAQgEAEAMIAOAoQAgg8AmhEQCVkFAxh2IABgDIACgGQAHgPALgMQANgPAOgDQANgDAHAGQAIAHgFANIgBADIgCADQgTAzAJA3QAKA7AmAsQAVAYBCAjQA7AgAUAiQAWAlgBAzQgBAdgNBBQgNA9ABAfQAAAkANAcQBKhWAnhsQAGgPAMgNQANgOAOgDQANgDAHAGQAHAGgEAOQg8Cjh8B5QgKAKgMAGQgTAKgHgKQgbglgDg1QgDgjALg+QAOhSAAgTQACg8gfghQgRgSgkgSQgugXgLgIQgqgcgbgyQgQgggIgiQgsBWhABwQhOCIgxBoQAzCxAIC7QALD0g+DuQgEAQgXAUQgQANgKAAQgHAAgFgGgAj1AAQhEC6AICsQAICeBJB3QAhi0gJi4QgHiQghiKIgFALg");
+	this.shape_6.setTransform(-499.4448,-399.862);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_6},{t:this.shape_5}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.Scene2BG, new cjs.Rectangle(-899.6,-480.6,1919.3000000000002,962.5), null);
 
 
 (lib.Scene2Banner = function(mode,startPosition,loop,reversed) {
@@ -916,7 +1457,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// Text
-	this.instance = new lib.CachedBmp_63();
+	this.instance = new lib.CachedBmp_76();
 	this.instance.setTransform(25.1,23.35,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -960,22 +1501,22 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
 
 	// Panel
-	this.instance = new lib.CachedBmp_56();
+	this.instance = new lib.CachedBmp_70();
 	this.instance.setTransform(102.05,27.25,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_55();
+	this.instance_1 = new lib.CachedBmp_69();
 	this.instance_1.setTransform(93.55,-0.5,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_1},{t:this.instance}]},1).wait(1));
 
 	// Background
-	this.instance_2 = new lib.CachedBmp_58();
+	this.instance_2 = new lib.CachedBmp_72();
 	this.instance_2.setTransform(24.05,12,0.5,0.5);
 
-	this.instance_3 = new lib.CachedBmp_59();
+	this.instance_3 = new lib.CachedBmp_73();
 	this.instance_3.setTransform(-0.5,-0.5,0.5,0.5);
 
-	this.instance_4 = new lib.CachedBmp_60();
+	this.instance_4 = new lib.CachedBmp_74();
 	this.instance_4.setTransform(24.05,12,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3},{t:this.instance_2}]}).to({state:[{t:this.instance_3},{t:this.instance_4}]},1).wait(1));
@@ -1009,22 +1550,22 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
 
 	// Panel
-	this.instance = new lib.CachedBmp_50();
+	this.instance = new lib.CachedBmp_64();
 	this.instance.setTransform(102.05,27.25,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_55();
+	this.instance_1 = new lib.CachedBmp_69();
 	this.instance_1.setTransform(93.55,-0.5,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_1},{t:this.instance}]},1).wait(1));
 
 	// Background
-	this.instance_2 = new lib.CachedBmp_52();
+	this.instance_2 = new lib.CachedBmp_66();
 	this.instance_2.setTransform(24.05,12,0.5,0.5);
 
-	this.instance_3 = new lib.CachedBmp_59();
+	this.instance_3 = new lib.CachedBmp_73();
 	this.instance_3.setTransform(-0.5,-0.5,0.5,0.5);
 
-	this.instance_4 = new lib.CachedBmp_54();
+	this.instance_4 = new lib.CachedBmp_68();
 	this.instance_4.setTransform(24.05,12,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3},{t:this.instance_2}]}).to({state:[{t:this.instance_3},{t:this.instance_4}]},1).wait(1));
@@ -1058,22 +1599,22 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
 
 	// Panel
-	this.instance = new lib.CachedBmp_44();
+	this.instance = new lib.CachedBmp_58();
 	this.instance.setTransform(0.05,-76.7,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_55();
+	this.instance_1 = new lib.CachedBmp_69();
 	this.instance_1.setTransform(-8.45,-104.45,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_1},{t:this.instance}]},1).wait(1));
 
 	// Background
-	this.instance_2 = new lib.CachedBmp_46();
+	this.instance_2 = new lib.CachedBmp_60();
 	this.instance_2.setTransform(24.05,12,0.5,0.5);
 
-	this.instance_3 = new lib.CachedBmp_59();
+	this.instance_3 = new lib.CachedBmp_73();
 	this.instance_3.setTransform(-0.5,-0.5,0.5,0.5);
 
-	this.instance_4 = new lib.CachedBmp_48();
+	this.instance_4 = new lib.CachedBmp_62();
 	this.instance_4.setTransform(24.05,12,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3},{t:this.instance_2}]}).to({state:[{t:this.instance_3},{t:this.instance_4}]},1).wait(1));
@@ -1107,22 +1648,22 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
 
 	// Panel
-	this.instance = new lib.CachedBmp_38();
+	this.instance = new lib.CachedBmp_52();
 	this.instance.setTransform(-109.95,27.25,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_55();
+	this.instance_1 = new lib.CachedBmp_69();
 	this.instance_1.setTransform(-118.45,-0.5,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_1},{t:this.instance}]},1).wait(1));
 
 	// Background
-	this.instance_2 = new lib.CachedBmp_40();
+	this.instance_2 = new lib.CachedBmp_54();
 	this.instance_2.setTransform(24.05,12,0.5,0.5);
 
-	this.instance_3 = new lib.CachedBmp_59();
+	this.instance_3 = new lib.CachedBmp_73();
 	this.instance_3.setTransform(-0.5,-0.5,0.5,0.5);
 
-	this.instance_4 = new lib.CachedBmp_42();
+	this.instance_4 = new lib.CachedBmp_56();
 	this.instance_4.setTransform(24.05,12,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3},{t:this.instance_2}]}).to({state:[{t:this.instance_3},{t:this.instance_4}]},1).wait(1));
@@ -1156,22 +1697,22 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
 
 	// Panel
-	this.instance = new lib.CachedBmp_32();
+	this.instance = new lib.CachedBmp_46();
 	this.instance.setTransform(-110.95,27.25,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_55();
+	this.instance_1 = new lib.CachedBmp_69();
 	this.instance_1.setTransform(-119.45,-0.5,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_1},{t:this.instance}]},1).wait(1));
 
 	// Background
-	this.instance_2 = new lib.CachedBmp_34();
+	this.instance_2 = new lib.CachedBmp_48();
 	this.instance_2.setTransform(24.05,12,0.5,0.5);
 
-	this.instance_3 = new lib.CachedBmp_59();
+	this.instance_3 = new lib.CachedBmp_73();
 	this.instance_3.setTransform(-0.5,-0.5,0.5,0.5);
 
-	this.instance_4 = new lib.CachedBmp_36();
+	this.instance_4 = new lib.CachedBmp_50();
 	this.instance_4.setTransform(24.05,12,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3},{t:this.instance_2}]}).to({state:[{t:this.instance_3},{t:this.instance_4}]},1).wait(1));
@@ -1180,6 +1721,143 @@ if (reversed == null) { reversed = false; }
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-119.4,-0.5,200.9,88);
+
+
+(lib.LivingroomMask = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#020303").ss(4).p("EgPEglSMAeEgktMAAACUBIya1TMAAChTxIpfG1");
+	this.shape.setTransform(281.0515,473.5617);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FFFFFF").s().p("EgDXA0uMAAChTxIpgG1IiMtFMAeDgktMAAACUBg");
+	this.shape_1.setTransform(280.825,473.675);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.LivingroomMask, new cjs.Rectangle(182.6,-5.5,196.50000000000003,958.2), null);
+
+
+(lib.Countdown10 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	this.isSingleFrame = false;
+	// timeline functions:
+	this.frame_0 = function() {
+		if(this.isSingleFrame) {
+			return;
+		}
+		if(this.totalFrames == 1) {
+			this.isSingleFrame = true;
+		}
+		this.stop()
+		
+		var CountdownText = this.CountdownText;
+		var Countdown15Interval;
+		var countDownDate;
+		
+		function AddMinutesToDate(date, minutes) {
+		    return new Date(date.getTime() + minutes * 60000);
+		}
+		
+		function updateTimer() {
+			var now = new Date().getTime();
+			
+			var distance = countDownDate - now;
+			
+			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			if (minutes < 10) {
+				minutes = " " + minutes
+			}
+			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+			if (seconds < 10) {
+				seconds = "0" + seconds
+			}
+			CountdownText.text = minutes + ":" + seconds;
+		}
+		
+		function startTimer() {
+			countDownDate = AddMinutesToDate(new Date(), 10).getTime();
+			clearInterval(Countdown15Interval)
+			Countdown15Interval = setInterval(updateTimer, 1000);
+			updateTimer()
+		}
+		
+		this.startTimer = startTimer;
+		
+		this.startTimer();
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+
+	// Text
+	this.CountdownText = new cjs.Text("", "italic bold 53px 'PT Sans'");
+	this.CountdownText.name = "CountdownText";
+	this.CountdownText.lineHeight = 64;
+	this.CountdownText.lineWidth = 135;
+	this.CountdownText.parent = this;
+	this.CountdownText.setTransform(44.05,46.45);
+
+	this.timeline.addTween(cjs.Tween.get(this.CountdownText).wait(1));
+
+	// BG
+	this.instance = new lib.CachedBmp_123();
+	this.instance.setTransform(25.3,0,0.5,0.5);
+
+	this.instance_1 = new lib.CachedBmp_125();
+	this.instance_1.setTransform(0,1.2,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.Countdown10, new cjs.Rectangle(0,0,219,110.8), null);
+
+
+(lib.TinderBoxBubble = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// FlashAICB
+	this.instance = new lib.CachedBmp_106();
+	this.instance.setTransform(139.45,19.1,0.5,0.5);
+
+	this.instance_1 = new lib.CachedBmp_105();
+	this.instance_1.setTransform(0,0,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.TinderBoxBubble, new cjs.Rectangle(0,0,449.5,178.5), null);
 
 
 (lib.Scene1Interactive2 = function(mode,startPosition,loop,reversed) {
@@ -1205,22 +1883,22 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
 
 	// Panel
-	this.instance = new lib.CachedBmp_26();
+	this.instance = new lib.CachedBmp_40();
 	this.instance.setTransform(-56.85,-333.8,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_25();
+	this.instance_1 = new lib.CachedBmp_39();
 	this.instance_1.setTransform(-70.35,-361.45,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_1},{t:this.instance}]},1).wait(1));
 
 	// Icon
-	this.instance_2 = new lib.CachedBmp_28();
+	this.instance_2 = new lib.CachedBmp_42();
 	this.instance_2.setTransform(9,-10.85,0.5,0.5);
 
-	this.instance_3 = new lib.CachedBmp_29();
+	this.instance_3 = new lib.CachedBmp_43();
 	this.instance_3.setTransform(-0.5,-0.5,0.5,0.5);
 
-	this.instance_4 = new lib.CachedBmp_30();
+	this.instance_4 = new lib.CachedBmp_44();
 	this.instance_4.setTransform(-17.75,-17.05,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3},{t:this.instance_2}]}).to({state:[{t:this.instance_3},{t:this.instance_4}]},1).wait(1));
@@ -1254,22 +1932,22 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
 
 	// Panel
-	this.instance = new lib.CachedBmp_20();
+	this.instance = new lib.CachedBmp_34();
 	this.instance.setTransform(103.15,30.2,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_25();
+	this.instance_1 = new lib.CachedBmp_39();
 	this.instance_1.setTransform(89.65,2.55,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_1},{t:this.instance}]},1).wait(1));
 
 	// Icon
-	this.instance_2 = new lib.CachedBmp_22();
+	this.instance_2 = new lib.CachedBmp_36();
 	this.instance_2.setTransform(9,-10.85,0.5,0.5);
 
-	this.instance_3 = new lib.CachedBmp_29();
+	this.instance_3 = new lib.CachedBmp_43();
 	this.instance_3.setTransform(-0.5,-0.5,0.5,0.5);
 
-	this.instance_4 = new lib.CachedBmp_24();
+	this.instance_4 = new lib.CachedBmp_38();
 	this.instance_4.setTransform(-17.75,-17.05,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3},{t:this.instance_2}]}).to({state:[{t:this.instance_3},{t:this.instance_4}]},1).wait(1));
@@ -1303,10 +1981,10 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
 
 	// Text
-	this.instance = new lib.CachedBmp_17();
+	this.instance = new lib.CachedBmp_31();
 	this.instance.setTransform(25.1,23.35,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_18();
+	this.instance_1 = new lib.CachedBmp_32();
 	this.instance_1.setTransform(25.1,23.35,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},1).wait(1));
@@ -1328,7 +2006,7 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-1,-1,1348,178.3);
 
 
-(lib.PrevSceneButton = function(mode,startPosition,loop,reversed) {
+(lib.PorgBG = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -1340,18 +2018,24 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_14();
-	this.instance.setTransform(12.05,3.5,0.5,0.5);
+	this.instance = new lib.CachedBmp_25();
+	this.instance.setTransform(459,107,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_13();
-	this.instance_1.setTransform(-0.5,-0.5,0.5,0.5);
+	this.instance_1 = new lib.Image();
+	this.instance_1.setTransform(1888.45,111,2.2675,2.2675,0,0,180);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(4));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
+
+	// Layer_2
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FFFFFF").s().p("EiV/BUYMAAAiovMEr/AAAMAAACovg");
+	this.shape.setTransform(960,540);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-0.5,-0.5,56,51);
+}).prototype = getMCSymbolPrototype(lib.PorgBG, new cjs.Rectangle(0,0,1920,1080), null);
 
 
 (lib.PorchMask = function(mode,startPosition,loop,reversed) {
@@ -1366,10 +2050,10 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_75();
+	this.instance = new lib.CachedBmp_24();
 	this.instance.setTransform(0,-5.6,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_74();
+	this.instance_1 = new lib.CachedBmp_23();
 	this.instance_1.setTransform(376.6,2,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -1377,6 +2061,257 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.PorchMask, new cjs.Rectangle(0,-5.6,422.6,958.5), null);
+
+
+(lib.Flames = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.CachedBmp_8();
+	this.instance.setTransform(0,0,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.Flames, new cjs.Rectangle(0,0,234,315), null);
+
+
+(lib.Countdown15 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	this.isSingleFrame = false;
+	// timeline functions:
+	this.frame_0 = function() {
+		if(this.isSingleFrame) {
+			return;
+		}
+		if(this.totalFrames == 1) {
+			this.isSingleFrame = true;
+		}
+		this.stop()
+		
+		var CountdownText = this.CountdownText;
+		var Countdown15Interval;
+		var countDownDate;
+		
+		function AddMinutesToDate(date, minutes) {
+		    return new Date(date.getTime() + minutes * 60000);
+		}
+		
+		function updateTimer() {
+			var now = new Date().getTime();
+			
+			var distance = countDownDate - now;
+			
+			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			if (minutes < 10) {
+				minutes = " " + minutes
+			}
+			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+			if (seconds < 10) {
+				seconds = "0" + seconds
+			}
+			CountdownText.text = minutes + ":" + seconds;
+		}
+		
+		function startTimer() {
+			countDownDate = AddMinutesToDate(new Date(), 15).getTime();
+			clearInterval(Countdown15Interval)
+			Countdown15Interval = setInterval(updateTimer, 1000);
+			updateTimer()
+		}
+		
+		this.startTimer = startTimer;
+		
+		this.startTimer();
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+
+	// Text
+	this.CountdownText = new cjs.Text("", "italic bold 53px 'PT Sans'");
+	this.CountdownText.name = "CountdownText";
+	this.CountdownText.lineHeight = 64;
+	this.CountdownText.lineWidth = 135;
+	this.CountdownText.parent = this;
+	this.CountdownText.setTransform(44.05,46.45);
+
+	this.timeline.addTween(cjs.Tween.get(this.CountdownText).wait(1));
+
+	// BG
+	this.instance = new lib.CachedBmp_117();
+	this.instance.setTransform(25.3,0,0.5,0.5);
+
+	this.instance_1 = new lib.CachedBmp_116();
+	this.instance_1.setTransform(0,1.2,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.Countdown15, new cjs.Rectangle(0,0,219,110.8), null);
+
+
+(lib.PrevSceneButton = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.CachedBmp_27();
+	this.instance.setTransform(12.05,3.5,0.5,0.5);
+
+	this.instance_1 = new lib.CachedBmp_26();
+	this.instance_1.setTransform(-0.5,-0.5,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(4));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-0.5,-0.5,56,51);
+
+
+(lib.NextSceneButton = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.CachedBmp_16();
+	this.instance.setTransform(14.05,3.5,0.5,0.5);
+
+	this.instance_1 = new lib.CachedBmp_26();
+	this.instance_1.setTransform(-0.5,-0.5,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(4));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-0.5,-0.5,56,51);
+
+
+(lib.PorchManSitting = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.CachedBmp_17();
+	this.instance.setTransform(0,0,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	// FlashAICB
+	this.instance_1 = new lib.CachedBmp_19();
+	this.instance_1.setTransform(-28.55,-122.8,0.5,0.5);
+
+	this.instance_2 = new lib.CachedBmp_101();
+	this.instance_2.setTransform(-89.3,-135.55,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.instance_1}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.PorchManSitting, new cjs.Rectangle(-89.3,-135.5,475.3,567.5), null);
+
+
+(lib.PorchDogStanding = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// FlashAICB
+	this.instance = new lib.CachedBmp_22();
+	this.instance.setTransform(-3.6,-17.5,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	// FlashAICB
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FFFFFF").s().p("AlrShIg+gPQgkgJgZAAQgIABAAgJQAAggAegrQAkguAMgWQArhSAUhtQAPhTAChpQABgzgDhRQgWAugaAqQglAgAFgVIADgUIgIAcQgCAIgNALQgOALgFgLIgKgYQgCAGgHAHQgNAMgKgGIgSgNQAKBhgDBcQgDBYgDAWQgGBBgSApQgQAlggAQQgcANgsAAIiFgFQgcACgPgBQgdAAgOgJQgqgcBahAQAigYAggGIAjgIQASgGALgOQAHgKADgZIADglQAZihABhjQABh9gchnIgrBRQgEAIgOAIQgPAIAAgNQABhPgGhJIgZAzQgEAHgMAIQgOAKgCgLIgpi3IgNAcQgEAHgQAIQgQAJADgNQAYh1gCh2QgbAngiAnQgFAHgKACQgLAEAAgLIgBiRIgTAiQgEAIgOAIQgPAIAAgNQABh1AihwIgmAgQgFAEgIACQgKABACgJQAXhzA1hdQAWgdAKgPQARgcgOgRQgGgIgYgUQgTgRgIgPQgGgMgEgUQgEgYgDgIIgRguQgJgbAAgWQAAg7AxgzIgBAAQgOAAgKgCQgJgDgLgGIgDgCQgJgFAPgPIADgDQgBgbAZgjQAYgiAmgtIBChLIAogtQAZgYAagDQAdgEAvAYQBEAjAGACQCHAtBAgaIA2gYQAegKAcAMQAfAOAhAlQARARAjAvQAzBEAlBSQAEAIgKAKQgIAIgJAEIh0AvQAFAbAgAQQAYAMAwAUQAfAUAUA0IASAxQAMAdARAOQAZAUAzADQAdACA1gBIEcAQQAnACBZABQBOAEAtAXQArAWAwArQAZAXA3A5QBaBfA9BiQA5BcAFCMQABAagNDcQgKCrAGBkQAICUAsB0IAAABIAAABQAMAigbAaQgVAUgnALQgxANgygIQgxgIgsgcQgIgFANgOQANgPAIABQBhAFgtinQgQg+gfhAQgdg7gUgTQgQgQgxgeQgqgagTgYIglg3QAdCwgqCoQgIAigRATQgRAVgfAJQgrANgwABQggABgOgBQgggCgLgJQgegbA2g2QA5g5ATgqQAchBgygvQgJgJgYgOQgXgNgKgKQgKgLgKgSIgQggQgWgqgTgEQgXgFgKARQgGAKgHAWQgLAigQAWQgFAIgJAEQgLAGgEgIIgTgmQgPAagWAXQgGAGgHADQgJAEgEgHIgPghQgGANgHANQgFAIgHAGQgJAHgHgCIgrgPIACAWQAAAGgGAIQAIBLAfBHQAEAJgMALQgKALgJAAQgMAAgMgBQAGAfAAAiQAAAIgMAMQgMALgHgEIgPgHIAWAwQAEAJgNAMQgNAMgJgCIgpgLIAVAzQADAHgIAJQgGAHgHAFQgVAMgWAEIAaBHQADAKgMALQgMAKgKgBIgcgCQAEAZgJAbQgOAsgmAaQgeAUgqAAQgWAAgZgFgAmwRnQA5AWA/AGQA0AGAZgmQAZglgWguQgEgJANgMQAMgKAKABIAZACIgYhEQgDgKAMgMQAMgLAKACQASAFARgDIghhOQgEgKANgMQAMgMAKADIAnAKIgXg0QgEgKANgMQAMgLAKACQAQADARAHQgEgfgJgeQgCgIAMgOQANgNAIAEIAQAIQgWhAgFhIQgBgGAHgIIgDgoQgBgJAMgKQALgLAJADIA8AVQAKgYACgaQAAgJAPgNQAPgNAFAMIAaA6QAPgVAJgZQADgJAMgKQAOgLAFALIATAoIAJgYQANglATgRQAVgSAZAAQAZAAATAUQALALAKATIAQAgQAKAVASAOQAJAIAcASQAfAUAOAeQAOAegEAlQgGA8g5A9IgPANQgJAIgEAGQgVAPAKAfIASACQAWAIAsgDQArgEAXgKQAYgLAJgnQACgFAIg8QAIg5AAg0QAChxggh2QgDgLAOgMQANgNAKAHQAUAPASAYIAfAtQASAdAXAVQAUASAhATQAsAbAfAnQAcAlATA0QAbBHAJAlQAQBCgMAuQgLApggAcIgPALQAfANAiAEQAgACAfgFQAwgJgKgaQgvh9gGimQgEhgALjJQAHhdABgvQADhSgHg6QgIg7gjhAQgZgtgxg/QhMhkhghUQgjgegQgMQgegVgcgJQgdgJgsgCIhKgDIkcgPIibgJQgcgCgKgCQgVgEgPgJQgegSgSg3QgWg+gRgTQgMgNgbgMIgvgUQg2gaAHgxQABgJAHgHQAHgHAIgEIBsgsQg5h3hXhVQgXgWgLgIQgVgNgWABQgTABgQALQgVAPgIADQgSAHgdgBIgwgCQhAgGg3gSQgRgGgkgUQgjgTgTgFQglgLgmAkIg4BDQgnApgWAdQgrA4APAYIARAEIAngNQAQgGgGAQQgHARgJAEIgCABIgBACQgGAKgGAFQhBAyAYBUQADAKAMAXQAMAVACAMIgBAOQgBAJACAGQAEATAWAVQAMAMASAOQANAMAKATQADAGgJALQhVBsgfCDIArgjQAHgGAIABQAJAAgEALQgiBjgHBlIAQgcQAFgJANgHQAOgJABAOIABCiQAdglAZgqQAFgJAMgHQAPgJABAOQAFBkgOBjIAJgHQAOgKADALIAoC4IAdg6QAEgGANgJQAPgKABALQAHBLABBLIAig/QAEgIAMgIQANgJAEAKQAeBaAGBrQAEBZgMBvQgNB2gNA/QgOBBgpAWQgOAHgZADQgdADgKAEQgMAEgOAIQgRAKgEAIQgKAQAMAGQAHADAUABICsAFQAUAAAHgCQAJgDAPgNQARgOAFgNQADgIAEgZIAHg3QAGg4ABgvQAEhwgQh1QgBgLAMgMQANgNAJAHIAFADIgYhOQgCgKAOgOQAPgOAHAJQAqA1AdA9IAkh4QACgJAQgKQAQgKAAAOQABAugFAsQASgkARgnQADgJAPgKQAQgLAAAPQAGClgFBZQgJCNgmBrQgVA7geAyIgeAsIgOAYQgKATAEAFQABABAIAAIAGAAIAEAAg");
+	this.shape.setTransform(101.9983,101.4972);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FFFFFF").s().p("AlzSKQhOgVgdACQgDgOAJgQQAEgIAOgTQBfh3Abi9QASh8gJjeQghBTguBJQAQhLgChRIg1CzQgfhUg4hEIAsCRIg6gpQAdDMghDNQgEAagGAPQgJAVgPALQgNAKgVADQgOACgYgBIi+gGQgNAAgJgEQgMgGAAgKQAAgIANgMQAagXAPgKQAYgQAWgEIAegEQATgCAKgFQATgKAKgYQAGgQAFgeQAdi4AChiQAFidgph2IhCB9QABhqgKhbIg2BrIgwjbIgnBNQAdiKgIiIQgmBFgwAzIgCjAIgyBcQgBiEAth9IhFA6QAcibBjh6IgPgeQgYgKgSgUQgSgUgHgZQgFgQAHgHIgDgGQgxhXAYg/QAOgmApgeIgVgFQATgDAVgMIgaAKQgHADgJABIACABQgaAEgQgPIAQAEQgLgLAFgWQAFgUANgRQBLhfBOhXQAUgXARgGQARgFAWAIQAMAEAZAOQA/AkBJAOQBHAPBJgHQA9gsApAOQAQAGAZAXQBrBkA7CIIiLA5QgGATAOAVQANASAWALIApAQQAaAKANALQAXATAXBBQAVA9AcARQAOAIATAEQAMACAWABIH9AbQBBADAgAOQAbALAlAeQCSB3BnCZQAxBHAPA0QAPAzgBBTQAACEgREKQgEDpA7CYQAHARgCAHQgCARgaALQgyAWg5gFQg5gFgugfQAeAFAbgXQAagWAIghQAGgbgFgkQgDgVgLgpQgWhRgUgqQgfhBgughQgJgHgggSQgagOgNgMQgVgSgig2QgfgxgbgSQAdBpABBvQABBvgbBqQgHAagKAKQgIAJgXAHQhOAWhPgOQgKgCgEgDQgNgJAIgSQAHgQAQgOQBBg2AUg0QANgigGgjQgGglgYgWQgKgJgYgOQgXgNgKgKQgLgMgLgWIgSglQgMgUgQgMQgSgNgTAEQgbAFgPArQgVA6gJALIgghBQgOAwgkAiIgihLQgBAsgZAnIhNgbIAEA9IgHgHQAFBbAkBQQghAEgcgUQARA2gCA1QgdgSglgHIArBhIhagYIAoBeQgQAMgTADQgUAEgSgGIAlBnIhFgGQAWAlgRAtQgRAtgoAOQgPAFgVAAQgcAAgngLg");
+	this.shape_1.setTransform(102.1141,101.5312);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.PorchDogStanding, new cjs.Rectangle(-3.7,-17.5,211.6,238), null);
+
+
+(lib.PorchDogLying = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// FlashAICB
+	this.instance = new lib.CachedBmp_20();
+	this.instance.setTransform(-102.4,-100.15,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	// FlashAICB
+	this.instance_1 = new lib.CachedBmp_21();
+	this.instance_1.setTransform(-102.2,-100.15,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.PorchDogLying, new cjs.Rectangle(-102.4,-100.1,205,201.5), null);
 
 
 (lib.Torso = function(mode,startPosition,loop,reversed) {
@@ -1391,10 +2326,10 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_11();
+	this.instance = new lib.CachedBmp_7();
 	this.instance.setTransform(128.95,4.85,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_10();
+	this.instance_1 = new lib.CachedBmp_6();
 	this.instance_1.setTransform(3.85,-0.65,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -1416,10 +2351,10 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_9();
+	this.instance = new lib.CachedBmp_5();
 	this.instance.setTransform(42.7,83.2,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_8();
+	this.instance_1 = new lib.CachedBmp_4();
 	this.instance_1.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -1510,7 +2445,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_7();
+	this.instance = new lib.CachedBmp_3();
 	this.instance.setTransform(-3.9,-12.8,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -1532,7 +2467,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_6();
+	this.instance = new lib.CachedBmp_2();
 	this.instance.setTransform(19.85,-0.85,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -1611,7 +2546,7 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.Arm_L, new cjs.Rectangle(0,0,61.5,144.4), null);
 
 
-(lib.NextSceneButton = function(mode,startPosition,loop,reversed) {
+(lib.DrivewayGuyStanding = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -1622,68 +2557,21 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_1
-	this.instance = new lib.CachedBmp_5();
-	this.instance.setTransform(14.05,3.5,0.5,0.5);
-
-	this.instance_1 = new lib.CachedBmp_13();
-	this.instance_1.setTransform(-0.5,-0.5,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(4));
-
-	this._renderFirstFrame();
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-0.5,-0.5,56,51);
-
-
-(lib.LivingroomMask = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#020303").ss(4).p("EgPEglSMAeEgktMAAACUBIya1TMAAChTxIpfG1");
-	this.shape.setTransform(281.0515,473.5617);
-
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFFFFF").s().p("EgDXA0uMAAChTxIpgG1IiMtFMAeDgktMAAACUBg");
-	this.shape_1.setTransform(280.825,473.675);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.LivingroomMask, new cjs.Rectangle(182.6,-5.5,196.50000000000003,958.2), null);
-
-
-(lib.Flames = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.instance = new lib.CachedBmp_3();
+	// FlashAICB
+	this.instance = new lib.CachedBmp_127();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
+	// FlashAICB
+	this.instance_1 = new lib.CachedBmp_128();
+	this.instance_1.setTransform(0,0,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
+
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Flames, new cjs.Rectangle(0,0,234,315), null);
+}).prototype = getMCSymbolPrototype(lib.DrivewayGuyStanding, new cjs.Rectangle(0,0,171.5,489.5), null);
 
 
 (lib.ConfusedGuy = function(mode,startPosition,loop,reversed) {
@@ -1698,7 +2586,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_2();
+	this.instance = new lib.CachedBmp_1();
 	this.instance.setTransform(-72.15,-73.4,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -1706,28 +2594,6 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.ConfusedGuy, new cjs.Rectangle(-72.1,-73.4,285.5,293.5), null);
-
-
-(lib.background = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.instance = new lib.CachedBmp_1();
-	this.instance.setTransform(0,0,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.background, new cjs.Rectangle(0,0,1434.5,957), null);
 
 
 (lib.Scene4 = function(mode,startPosition,loop,reversed) {
@@ -1750,22 +2616,23 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.Scene4Banner).wait(1));
 
 	// Text
-	this.instance = new lib.CachedBmp_72();
+	this.instance = new lib.CachedBmp_85();
 	this.instance.setTransform(1566.6,16.05,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	// Car
-	this.instance_1 = new lib.CarTraffic();
-	this.instance_1.setTransform(933.55,753.15,1,1,0,0,0,269.1,285.8);
+	this.CarTraffic = new lib.CarTraffic();
+	this.CarTraffic.name = "CarTraffic";
+	this.CarTraffic.setTransform(933.55,1312.8,1,1,0,0,0,269.1,285.8);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.CarTraffic).wait(1));
 
 	// Layer_2
-	this.instance_2 = new lib._401_Gridlock();
-	this.instance_2.setTransform(-178,-372,1.4183,1.4183);
+	this.instance_1 = new lib._401_Gridlock();
+	this.instance_1.setTransform(-178,-372,1.4183,1.4183);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
 
 	// BG_Color
 	this.shape = new cjs.Shape();
@@ -1776,7 +2643,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Scene4, new cjs.Rectangle(-178,-372,2180,1452.3), null);
+}).prototype = getMCSymbolPrototype(lib.Scene4, new cjs.Rectangle(-178,-372,2180,1970.9), null);
 
 
 (lib.Scene3 = function(mode,startPosition,loop,reversed) {
@@ -1789,6 +2656,12 @@ if (reversed == null) { reversed = false; }
 	props.loop = loop;
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
+
+	// Static_Text
+	this.instance = new lib.CachedBmp_81();
+	this.instance.setTransform(0,7.1,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	// CarFrame
 	this.Car = new lib.CarFrame();
@@ -1824,7 +2697,7 @@ if (reversed == null) { reversed = false; }
 
 	this.Scene3Banner = new lib.Scene3Banner();
 	this.Scene3Banner.name = "Scene3Banner";
-	this.Scene3Banner.setTransform(872.25,104.25,1,1,0,0,0,673,88.2);
+	this.Scene3Banner.setTransform(872.25,204.25,1,1,0,0,0,673,88.2);
 	this.Scene3Banner.alpha = 0;
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.Scene3Banner},{t:this.Packable1},{t:this.Packable2},{t:this.Packable3},{t:this.Packable4},{t:this.Packable5},{t:this.Packable6}]}).wait(1));
@@ -1836,28 +2709,22 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.CarBG).wait(1));
 
-	// Text
-	this.instance = new lib.CachedBmp_68();
-	this.instance.setTransform(1566.6,16.05,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
 	// Layer_2
-	this.instance_1 = new lib.stockphotocontemporarysplitlevelhousewithgarageinfront449308282();
-	this.instance_1.setTransform(2040,-333,1.36,1.36,0,0,180);
+	this.instance_1 = new lib.GarageBG();
+	this.instance_1.setTransform(1020,415.6,1,1,0,0,0,1020,748.6);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
 
 	// BG_Color
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("EiV/BUYMAAAiovMEr/AAAMAAACovg");
-	this.shape.setTransform(960,540);
+	this.shape.graphics.f("#FFFFFF").s().p("Eij+BZgMAAAiy/MFH+AAAMAAACy/g");
+	this.shape.setTransform(960.0032,540.0173,0.9147,0.9427);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Scene3, new cjs.Rectangle(0,-333,2040,1497.4), null);
+}).prototype = getMCSymbolPrototype(lib.Scene3, new cjs.Rectangle(-11,0,1931,1170.4), null);
 
 
 (lib.Scene2Interactive5 = function(mode,startPosition,loop,reversed) {
@@ -2071,9 +2938,9 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Text
-	this.instance = new lib.CachedBmp_61();
-	this.instance.setTransform(1564.75,15.75,0.5,0.5);
+	// Static_Text
+	this.instance = new lib.CachedBmp_124();
+	this.instance.setTransform(30.85,43,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -2100,38 +2967,36 @@ if (reversed == null) { reversed = false; }
 
 	this.Scene2Banner = new lib.Scene2Banner();
 	this.Scene2Banner.name = "Scene2Banner";
-	this.Scene2Banner.setTransform(868.5,99.6,1,1,0,0,0,673,88.2);
+	this.Scene2Banner.setTransform(868.5,199.6,1,1,0,0,0,673,88.2);
 	this.Scene2Banner.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.Scene2Banner},{t:this.Scene2Interactive1},{t:this.Scene2Interactive2},{t:this.Scene2Interactive3},{t:this.Scene2Interactive4},{t:this.Scene2Interactive5}]}).wait(1));
-
-	// Illustration
 	this.TVScreen = new lib.TVScreen();
 	this.TVScreen.name = "TVScreen";
-	this.TVScreen.setTransform(1365.55,523.25,0.2422,0.2421,0,0,0,640.2,360.6);
+	this.TVScreen.setTransform(1827.95,764.8,0.9554,0.9545,0,0,0,643,362.2);
 	this.TVScreen.visible = false;
 
-	this.instance_1 = new lib.CachedBmp_62();
-	this.instance_1.setTransform(0,115.75,0.5,0.5);
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.TVScreen},{t:this.Scene2Banner},{t:this.Scene2Interactive1},{t:this.Scene2Interactive2},{t:this.Scene2Interactive3},{t:this.Scene2Interactive4},{t:this.Scene2Interactive5}]}).wait(1));
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.TVScreen}]}).wait(1));
+	// Illustration
+	this.instance_1 = new lib.Scene2BG();
+	this.instance_1.setTransform(959.65,589,1,1,0,0,0,60,0.5);
 
-	// Layer_2
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("EiUVBLHMAAAiWNMEorAAAMAAACWNg");
-	this.shape.setTransform(957.425,600.9);
+	this.shape.graphics.f("#FFFFFF").s().p("Ak1AeIAAg7IJrAAIAAA7g");
+	this.shape.setTransform(1610.225,495.15);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.instance_1}]}).wait(1));
 
-	// img
-	this.instance_2 = new lib.feat1800x0ccenterjpgcopy();
-	this.instance_2.setTransform(10,-120,1.0544,1.0544);
+	// BG
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FFFFFF").s().p("EghIAccMAAAg43MBCQAAAMAAAA43g");
+	this.shape_1.setTransform(959.976,540.0155,4.5272,2.9666);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Scene2, new cjs.Rectangle(0,-120,1918.3,1263.2), null);
+}).prototype = getMCSymbolPrototype(lib.Scene2, new cjs.Rectangle(0,0,1920,1080), null);
 
 
 (lib.Scene1 = function(mode,startPosition,loop,reversed) {
@@ -2164,15 +3029,21 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({_off:false},0).wait(1));
 
 	// Static_Text
-	this.instance_1 = new lib.CachedBmp_15();
-	this.instance_1.setTransform(1566.6,9.45,0.5,0.5);
+	this.instance_1 = new lib.CachedBmp_120();
+	this.instance_1.setTransform(48.6,983.3,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(2));
+	this.instance_2 = new lib.CachedBmp_119();
+	this.instance_2.setTransform(2.7,42.15,0.5,0.5);
+
+	this.instance_3 = new lib.CachedBmp_118();
+	this.instance_3.setTransform(2.7,-12.05,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3},{t:this.instance_2},{t:this.instance_1}]}).wait(2));
 
 	// Interactives
 	this.Scene1Banner = new lib.Scene1Banner();
 	this.Scene1Banner.name = "Scene1Banner";
-	this.Scene1Banner.setTransform(873.75,92.4,1,1,0,0,0,673,88.2);
+	this.Scene1Banner.setTransform(945.75,213.45,1,1,0,0,0,673,88.2);
 	this.Scene1Banner.alpha = 0;
 
 	this.Scene1Interactive2 = new lib.Scene1Interactive2();
@@ -2187,28 +3058,16 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.Scene1Interactive1},{t:this.Scene1Interactive2},{t:this.Scene1Banner}]}).wait(2));
 
-	// Illustration
-	this.instance_2 = new lib.background();
-	this.instance_2.setTransform(1176.2,582.2,1,1,0,0,0,717.1,478.5);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(2));
-
-	// Layer_1
-	this.instance_3 = new lib.CachedBmp_16();
-	this.instance_3.setTransform(463.1,101.85,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(2));
-
-	// img
-	this.instance_4 = new lib.feat1800x0ccenter();
-	this.instance_4.setTransform(0,0,0.8978,0.8978);
+	// BG
+	this.instance_4 = new lib.PorgBG();
+	this.instance_4.setTransform(717.1,478.4,1,1,0,0,0,717.1,478.4);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(2));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,1920.1,1075.5);
+p.nominalBounds = new cjs.Rectangle(0,-12,1920,1092);
 
 
 (lib.Guy = function(mode,startPosition,loop,reversed) {
@@ -2295,7 +3154,7 @@ if (reversed == null) { reversed = false; }
 	this.Calf_R.filters = [new cjs.ColorFilter(0.85, 0.85, 0.85, 1, 0, 0, 0, 0)];
 	this.Calf_R.cache(-2,-2,57,142);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.Calf_R,p:{regY:20.3,rotation:-10.8839,x:283.15,y:474.2,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:33.9,scaleX:0.7259,scaleY:0.7259,rotation:-24.0618,x:233.4,y:368.15,regX:56}},{t:this.Heel_R,p:{regY:10.7,rotation:-10.8853,x:287.7,y:530.75,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.726,scaleY:0.726,rotation:57.2966,x:179.55,y:282.05,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:67.0379,x:248.8,y:251.65,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.726,scaleY:0.726,rotation:57.2966,x:112.6,y:324.25,regY:9.6}},{t:this.Hip,p:{regX:101.8,regY:102.4,y:350}},{t:this.Torso,p:{rotation:10.3116,x:253.3,y:233.15,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7268,scaleY:0.7268,rotation:-1.1429,x:259.5,y:220.25,regY:159.1}},{t:this.Calf_L,p:{regY:19.7,scaleX:0.7259,scaleY:0.7259,rotation:42.9718,x:179.5,y:480.15,regX:27.6}},{t:this.Heel_L,p:{regY:9.9,rotation:42.9717,x:136.75,y:516.75,regX:20.5}},{t:this.Thigh_L,p:{regY:34.1,scaleX:0.7261,scaleY:0.7261,rotation:24.6364,x:228.15,y:369.4,regX:55.8}},{t:this.Forearm_L,p:{regY:16,scaleX:0.7261,scaleY:0.7261,rotation:-73.3404,x:308.1,y:304.1,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.7261,scaleY:0.7261,rotation:-50.4212,x:248.45,y:253.45,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:-73.3412,x:382.55,y:324.3,regX:22.9,regY:10}}]}).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:-8.4682,x:279.95,y:475.1,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-22.5973,x:233,y:367.85,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:-8.4682,x:282.15,y:531.85,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:43.1713,x:182,y:287.9,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:62.4796,x:248.7,y:252.2,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.2,scaleX:0.7259,scaleY:0.7259,rotation:13.2601,x:127.5,y:345.6,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:350.7}},{t:this.Torso,p:{rotation:10.3774,x:253.15,y:233.8,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:1.7856,x:259.45,y:221,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:51.3449,x:184.25,y:479.55,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:51.3432,x:136.65,y:509.6,regX:20.5}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:22.7288,x:229.25,y:367.1,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:-57.814,x:291.55,y:319.25,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:-34.2301,x:248.35,y:254.05,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7261,scaleY:0.7261,rotation:-57.8128,x:357.8,y:358.6,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:-6.051,x:276.8,y:475.85,regX:27.6,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-21.1308,x:232.5,y:367.3,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:-6.0505,x:276.65,y:532.65,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:29.0466,x:184.9,y:293.6,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:57.9212,x:248.4,y:252.7,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-30.7721,x:146.05,y:363.05,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:351.4}},{t:this.Torso,p:{rotation:10.4447,x:253.1,y:234.4,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:4.7225,x:259.45,y:221.65,regY:159.2}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:59.7163,x:189.15,y:478.75,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:59.7179,x:137.7,y:501.55,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:20.8199,x:230.4,y:364.85,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:-42.2862,x:271.65,y:329.1,regX:18.6}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:-18.0378,x:248.3,y:254.7,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7261,scaleY:0.7261,rotation:-42.2858,x:324.8,y:384.75,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:-3.6337,x:273.65,y:476.5,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-19.6646,x:232.15,y:366.8,regX:56.1}},{t:this.Heel_R,p:{regY:10.8,rotation:-3.6342,x:271.05,y:533.25,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:14.9216,x:188.2,y:298.9,regY:14.5,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:53.363,x:248.2,y:253.25,regX:30,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-74.8078,x:167.6,y:376.1,regY:9.7}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:352.15}},{t:this.Torso,p:{rotation:10.5131,x:252.95,y:234.95,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:7.6573,x:259.4,y:222.2,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:68.0894,x:194.1,y:477.85,regX:27.7}},{t:this.Heel_L,p:{regY:10,rotation:68.0915,x:139.85,y:492.95,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:18.9113,x:231.6,y:362.5,regX:55.9}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:-26.7578,x:249.85,y:333.2,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:-1.8463,x:248.2,y:255.35,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:-26.7583,x:286.2,y:401.05,regX:22.8,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:-1.2169,x:270.4,y:477.05,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-18.1988,x:231.65,y:366.35,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:-1.2183,x:265.5,y:533.7,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:0.7961,x:191.75,y:303.95,regY:14.5,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:48.8055,x:248.05,y:253.8,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.2,scaleX:0.7259,scaleY:0.7259,rotation:-118.8385,x:190.75,y:384.05,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:352.9}},{t:this.Torso,p:{rotation:10.5794,x:252.95,y:235.55,regX:102.5,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:10.5941,x:259.4,y:222.9,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:76.463,x:199.05,y:476.45,regX:27.6}},{t:this.Heel_L,p:{regY:9.9,rotation:76.4631,x:143.2,y:483.55,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:17.0026,x:232.8,y:359.95,regX:55.9}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.7261,scaleY:0.7261,rotation:-11.2306,x:227.95,y:331.05,regX:18.4}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:14.3394,x:248.05,y:255.9,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:-11.2301,x:244.85,y:406.1,regX:22.8,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:0.7547,x:262.75,y:476.3,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-15.4141,x:229.3,y:363.9,regX:56}},{t:this.Heel_R,p:{regY:10.7,rotation:0.2167,x:255.85,y:532.65,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-10.0977,x:206.15,y:312.85,regY:14.5,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:34.37,x:248.05,y:250.05,regX:30.1,regY:15}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-106.2807,x:220.05,y:391.6,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:349.1}},{t:this.Torso,p:{rotation:10.5794,x:252.9,y:231.75,regX:102.5,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:11.9963,x:259.35,y:219,regY:159.2}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:62.4545,x:228.15,y:477.35,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:62.4559,x:175.55,y:497.8,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:2.9806,x:232.6,y:356.2,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:-3.5485,x:223.7,y:326,regX:18.4}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:17.6543,x:248.05,y:252.05,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:-3.5479,x:230.4,y:402.5,regX:22.9,regY:9.9}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.3,rotation:2.7332,x:254.95,y:474.95,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-12.628,x:226.85,y:361.05,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:1.6555,x:246.1,y:531.2,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-20.9963,x:223.2,y:317.75,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:19.9358,x:248,y:246.4,regX:30,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-93.7204,x:251.45,y:392.35,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:345.25}},{t:this.Torso,p:{rotation:10.5794,x:252.85,y:227.9,regX:102.5,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:13.3987,x:259.45,y:215.15,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:48.4474,x:257.55,y:471.1,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:48.4487,x:211.45,y:503.6,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-11.0362,x:232.5,y:352.45,regX:55.8}},{t:this.Forearm_L,p:{regY:16,scaleX:0.7261,scaleY:0.7261,rotation:4.1278,x:219.55,y:320.6,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:20.9684,x:248,y:248.2,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:4.1283,x:215.95,y:397.35,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:4.7103,x:247.2,y:473.2,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-9.8421,x:224.5,y:358,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:3.0952,x:236.4,y:529,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-31.8957,x:241.75,y:317.95,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:5.5006,x:247.95,y:242.7,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.2,scaleX:0.7259,scaleY:0.7259,rotation:-81.1675,x:283.55,y:385.9,regY:9.7}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:341.4}},{t:this.Torso,p:{rotation:10.5794,x:252.85,y:224,regX:102.5,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:14.8004,x:259.4,y:211.35,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:34.4408,x:285.3,y:457.75,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:34.4415,x:248.65,y:500.4,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-25.0597,x:232.35,y:348.8,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:11.8096,x:215.45,y:315.15,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:24.2833,x:247.9,y:244.2,regX:28.5,regY:16.1}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:11.811,x:201.6,y:390.6,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:6.688,x:239.4,y:470.85,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-7.0569,x:222.4,y:354.75,regX:56.1}},{t:this.Heel_R,p:{regY:10.8,rotation:4.5345,x:226.8,y:526.25,regX:23.7,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-42.7938,x:260.85,y:313.5,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:-8.9286,x:248.05,y:238.95,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-68.6068,x:314.5,y:372.35,regY:9.7}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:337.55}},{t:this.Torso,p:{rotation:10.5794,x:252.8,y:220.15,regX:102.5,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:16.2024,x:259.45,y:207.5,regY:159.2}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:20.4332,x:310.15,y:437.85,regX:27.6}},{t:this.Heel_L,p:{regY:9.9,rotation:20.434,x:284.8,y:488.1,regX:20.6}},{t:this.Thigh_L,p:{regY:34.1,scaleX:0.726,scaleY:0.726,rotation:-39.0824,x:232.25,y:344.9,regX:55.9}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.7261,scaleY:0.7261,rotation:19.4909,x:211.4,y:309.35,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:27.598,x:247.85,y:240.4,regX:28.5,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:19.4915,x:187.7,y:382.2,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:8.6654,x:231.6,y:468.2,regX:27.6,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:33.9,scaleX:0.7258,scaleY:0.7258,rotation:-4.2727,x:220.25,y:351.25,regX:56.1}},{t:this.Heel_R,p:{regY:10.8,rotation:5.9757,x:217.2,y:523.2,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-53.6916,x:279.05,y:304.2,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:-23.3619,x:247.95,y:235.2,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-56.0474,x:342.65,y:352,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:333.7}},{t:this.Torso,p:{rotation:10.5794,x:252.75,y:216.3,regX:102.5,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:17.6044,x:259.6,y:203.65,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:6.4276,x:330.2,y:412.5,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:6.4277,x:317.8,y:467.4,regX:20.6}},{t:this.Thigh_L,p:{regY:34.1,scaleX:0.726,scaleY:0.726,rotation:-53.1046,x:232.1,y:341.2,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:27.1731,x:207.55,y:303.35,regX:18.6}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:30.9123,x:247.8,y:236.55,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:27.1746,x:174.2,y:372.3,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:15.3249,x:218.55,y:472,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:2.3218,x:220.55,y:354.45,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:13.1732,x:197.55,y:524.85,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-58.7487,x:288.3,y:302.15,regY:14.7,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:-31.6234,x:247.55,y:238.55,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-60.632,x:356,y:344.3,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:337.35}},{t:this.Torso,p:{rotation:10.561,x:252.5,y:219.8,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:16.1825,x:259.2,y:207.15,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:1.4588,x:324.35,y:427.45,regX:27.7}},{t:this.Heel_L,p:{regY:9.9,rotation:2.3981,x:316.7,y:483.1,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-48.0363,x:230.9,y:347.05,regX:55.8}},{t:this.Forearm_L,p:{regY:16,scaleX:0.726,scaleY:0.726,rotation:33.4576,x:194.55,y:296.9,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:42.7302,x:247.6,y:239.5,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:33.4633,x:153.65,y:362.05,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:21.9854,x:205.25,y:474.2,regX:27.6,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:8.9205,x:220.95,y:357.55,regX:56}},{t:this.Heel_R,p:{regY:10.7,rotation:20.3706,x:178.2,y:524.05,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-63.8039,x:296.5,y:298.7,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:-39.8836,x:247.2,y:241.75,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.2,scaleX:0.7259,scaleY:0.7259,rotation:-65.2175,x:368.05,y:334.9,regY:9.7}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:341}},{t:this.Torso,p:{rotation:10.5428,x:252.3,y:223.2,regX:102.4,scaleX:0.7264,scaleY:0.7264,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:14.7581,x:258.9,y:210.8,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:-3.505,x:317.55,y:441.95,regX:27.7}},{t:this.Heel_L,p:{regY:10,rotation:-1.6245,x:314.65,y:497.95,regX:20.5}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-42.9678,x:229.6,y:352.65,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:39.7416,x:183.65,y:288.2,regX:18.6}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:54.5483,x:247.25,y:242.4,regX:28.5,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7261,scaleY:0.7261,rotation:39.7527,x:135.75,y:348.55,regX:22.9,regY:9.9}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:28.6454,x:192.35,y:474.75,regX:27.7,scaleX:0.7263,scaleY:0.7263}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:15.5202,x:221.35,y:360.65,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:27.5686,x:159.4,y:521.15,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-68.8604,x:303.8,y:294.1,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:-48.1452,x:246.85,y:245,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-69.801,x:378.35,y:324.1,regY:9.7}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:344.65}},{t:this.Torso,p:{rotation:10.523,x:252.1,y:226.7,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:13.3357,x:258.55,y:214.35,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:-8.4733,x:309.8,y:456.05,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:-5.6514,x:311.95,y:512.05,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-37.9005,x:228.35,y:358.25,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:46.0252,x:175.35,y:277.25,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:66.3669,x:247.1,y:245.4,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:46.0421,x:120.75,y:332.35,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:35.3047,x:179.75,y:473.85,regX:27.7,scaleX:0.7263,scaleY:0.7263}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:22.1197,x:221.75,y:363.7,regX:56}},{t:this.Heel_R,p:{regY:10.7,rotation:34.7662,x:141.5,y:515.9,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-73.9178,x:309.8,y:288.65,regY:14.6,regX:20.6}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:-56.4054,x:246.4,y:248.25,regX:30,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-74.3845,x:386.85,y:311.95,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:348.3}},{t:this.Torso,p:{rotation:10.5034,x:252.05,y:230.15,regX:102.5,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:11.9139,x:258.2,y:217.95,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:-13.4441,x:301.4,y:469.7,regX:27.7}},{t:this.Heel_L,p:{regY:10,rotation:-9.6789,x:308.1,y:525,regX:20.5}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-32.8323,x:227.15,y:363.65,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:52.3093,x:169.85,y:265.15,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:78.184,x:246.95,y:248.4,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7261,scaleY:0.7261,rotation:52.3314,x:109.5,y:314.05,regX:22.9,regY:9.9}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:41.9644,x:167.6,y:471.4,regX:27.7,scaleX:0.7263,scaleY:0.7263}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:28.7192,x:222.2,y:366.8,regX:56}},{t:this.Heel_R,p:{regY:10.7,rotation:41.9648,x:124.7,y:508.7,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-78.9735,x:314.35,y:282.15,regY:14.5,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:-64.6661,x:246.05,y:251.55,regX:30,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.726,scaleY:0.726,rotation:-78.969,x:393.6,y:298.8,regY:9.7}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:351.9}},{t:this.Torso,p:{rotation:10.4839,x:251.8,y:233.6,regX:102.5,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:10.4903,x:257.85,y:221.5,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:-18.4121,x:292.2,y:482.65,regX:27.7}},{t:this.Heel_L,p:{regY:9.9,rotation:-13.7092,x:303.7,y:537.05,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-27.7629,x:225.9,y:369.15,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:58.5933,x:167.6,y:252.2,regX:18.4}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:90,x:246.7,y:251.35,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7261,scaleY:0.7261,rotation:58.6216,x:102.05,y:294.35,regX:22.9,regY:9.9}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:48.8175,x:173.3,y:475.35,regX:27.7,scaleX:0.7263,scaleY:0.7263}},{t:this.Thigh_R,p:{regY:33.9,scaleX:0.7258,scaleY:0.7258,rotation:26.4697,x:223.75,y:368.8,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:48.8188,x:126.45,y:507.3,regX:23.6,scaleX:0.7262,scaleY:0.7262}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-74.3292,x:305.8,y:300.15,regY:14.5,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:-51.4214,x:246.4,y:254.35,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-74.3243,x:383.35,y:323.1,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:354.55}},{t:this.Torso,p:{rotation:10.4999,x:251.85,y:236.3,regX:102.5,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:10.5096,x:258,y:224.25,regY:159.2}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:-15.1567,x:286.8,y:484.45,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:-11.3921,x:295.25,y:539.6,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-25.8994,x:225.85,y:370.35,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:48.5001,x:169.75,y:271.2,regX:18.4}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:78.2222,x:246.85,y:254.65,regX:28.6,regY:16.1}},{t:this.Palm_L,p:{scaleX:0.7261,scaleY:0.7261,rotation:48.5225,x:112.55,y:324.1,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:55.6723,x:179.15,y:478.95,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:24.2212,x:225.25,y:370.8,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:55.6702,x:128.95,y:505.25,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-69.6844,x:294,y:315.7,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:-38.1782,x:246.7,y:257.25,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.2,scaleX:0.7259,scaleY:0.7259,rotation:-69.6795,x:369.45,y:344.75,regY:9.7}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:357.2}},{t:this.Torso,p:{rotation:10.5159,x:251.8,y:239.15,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.8}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:10.528,x:258.2,y:226.8,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:-11.8996,x:281.4,y:486,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:-9.0793,x:286.7,y:541.65,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-24.0368,x:225.75,y:371.6,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:38.4061,x:175.05,y:289.65,regX:18.6}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:66.4418,x:246.9,y:257.85,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7261,scaleY:0.7261,rotation:38.4235,x:127.95,y:351.55,regX:22.8,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:62.5263,x:185.05,y:482.35,regX:27.6,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:33.9,scaleX:0.7258,scaleY:0.7258,rotation:21.9712,x:226.9,y:372.65,regX:56.1}},{t:this.Heel_R,p:{regY:10.8,rotation:62.5235,x:132.3,y:502.65,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-65.0402,x:279.45,y:328.05,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:-24.9332,x:246.9,y:260.15,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-65.0359,x:352.2,y:363.15,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:359.85}},{t:this.Torso,p:{rotation:10.5315,x:251.8,y:241.8,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:10.5452,x:258.3,y:229.5,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:-8.6427,x:276.15,y:487.35,regX:27.6}},{t:this.Heel_L,p:{regY:9.9,rotation:-6.7645,x:278.2,y:543.25,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-22.1737,x:225.65,y:372.7,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:28.3128,x:182.95,y:306.55,regX:18.4}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:54.6605,x:247,y:261.05,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7261,scaleY:0.7261,rotation:28.3244,x:147.7,y:375.55,regX:22.8,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:69.3801,x:191.15,y:485.55,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:19.7221,x:228.45,y:374.45,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:69.376,x:136.4,y:499.55,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-60.3963,x:263.1,y:336.8,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:-11.6887,x:247.2,y:263.05,regX:30,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-60.3899,x:332.8,y:377.6,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:362.55}},{t:this.Torso,p:{rotation:10.5462,x:251.85,y:244.55,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:10.5648,x:258.4,y:232.15,regY:159.1}},{t:this.Calf_L,p:{regY:19.7,scaleX:0.7258,scaleY:0.7258,rotation:-5.3849,x:270.95,y:488.25,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:-4.4499,x:269.8,y:544.6,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-20.3088,x:225.6,y:373.85,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:18.2187,x:193.75,y:321.55,regX:18.4}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:42.8793,x:247.15,y:264.2,regX:28.6,regY:16.1}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:18.2244,x:171.25,y:395.55,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.3,rotation:76.2332,x:197.3,y:488.25,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:17.4735,x:230.1,y:376,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:76.2289,x:141.4,y:495.9,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-55.7524,x:245.85,y:341.4,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:1.5487,x:247.6,y:265.8,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-55.7461,x:311.95,y:387.75,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:365.2}},{t:this.Torso,p:{rotation:10.5622,x:251.8,y:247.35,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:10.582,x:258.55,y:234.85,regY:159.1}},{t:this.Calf_L,p:{regY:19.7,scaleX:0.7258,scaleY:0.7258,rotation:-2.1289,x:265.8,y:489.1,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:-2.133,x:261.3,y:545.35,regX:20.5}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-18.4464,x:225.6,y:374.95,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:8.1264,x:206.55,y:334.3,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:31.0988,x:247.3,y:267.45,regX:28.6,regY:16.1}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:8.1274,x:197.3,y:410.9,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:62.2528,x:224.3,y:491.6,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:3.4325,x:228.9,y:374.6,regX:56}},{t:this.Heel_R,p:{regY:10.7,rotation:62.2478,x:171.95,y:512.35,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-42.5355,x:237.05,y:336.75,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:8.3414,x:247.45,y:261.85,regX:30.1,regY:15}},{t:this.Palm_R,p:{regX:24.2,scaleX:0.7259,scaleY:0.7259,rotation:-46.2273,x:291.1,y:396.7,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:361.4}},{t:this.Torso,p:{rotation:10.5598,x:251.8,y:243.55,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:11.2755,x:258.5,y:231,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:-0.4529,x:258.6,y:488.4,regX:27.6}},{t:this.Heel_L,p:{regY:9.9,rotation:-0.9224,x:252.55,y:544.3,regX:20.5}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-15.0655,x:225.1,y:371.85,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:-4.7486,x:215.65,y:335.5,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.7261,scaleY:0.7261,rotation:23.3592,x:247.05,y:263.7,regX:28.6,regY:16.1}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:-8.4025,x:223.8,y:412.25,regX:22.8,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:48.2709,x:251.75,y:487.85,regX:27.7,scaleX:0.7263,scaleY:0.7263}},{t:this.Thigh_R,p:{regY:33.9,scaleX:0.7258,scaleY:0.7258,rotation:-10.6022,x:227.9,y:373.05,regX:56.1}},{t:this.Heel_R,p:{regY:10.8,rotation:48.267,x:205.85,y:520.7,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-29.319,x:228.25,y:331.1,regY:14.5,regX:20.6}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:15.1379,x:247.5,y:257.95,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-36.7104,x:267.5,y:401.8,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:357.55}},{t:this.Torso,p:{rotation:10.5587,x:251.8,y:239.75,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.8}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:11.9682,x:258.35,y:227.1,regY:159.2}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:1.2179,x:251.35,y:487.2,regX:27.7}},{t:this.Heel_L,p:{regY:9.9,rotation:0.2793,x:243.6,y:542.85,regX:20.5}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-11.6845,x:224.65,y:368.8,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.7261,scaleY:0.7261,rotation:-17.6299,x:225.4,y:335.35,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:15.6182,x:246.9,y:259.95,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:-24.9372,x:250.65,y:408.35,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:34.2896,x:277.7,y:477.2,regX:27.6,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-24.6443,x:226.8,y:371.55,regX:56.1}},{t:this.Heel_R,p:{regY:10.8,rotation:34.2864,x:241.15,y:520.15,regX:23.6,scaleX:0.7262,scaleY:0.7262}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-16.1027,x:219.95,y:324.5,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:21.9289,x:247.5,y:253.9,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-27.1936,x:242.15,y:402.05,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:353.75}},{t:this.Torso,p:{rotation:10.5561,x:251.75,y:235.95,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.8}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:12.6603,x:258.4,y:223.15,regY:159.1}},{t:this.Calf_L,p:{regY:19.7,scaleX:0.7258,scaleY:0.7258,rotation:2.8933,x:243.85,y:485.6,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:1.4908,x:234.6,y:541.15,regX:20.5}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-8.3045,x:224.25,y:365.7,regX:55.9}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:-30.5107,x:235.5,y:333.85,regX:18.4}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:7.8784,x:246.7,y:256.15,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7261,scaleY:0.7261,rotation:-41.4741,x:276.5,y:399.4,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.3,rotation:20.308,x:300.85,y:460.15,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-38.6845,x:225.55,y:370,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:20.3044,x:275.6,y:510.65,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-2.8868,x:211.8,y:316.8,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:28.7244,x:247.45,y:249.9,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-17.6759,x:216.05,y:397.55,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:350}},{t:this.Torso,p:{rotation:10.5549,x:251.7,y:232.15,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.8}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:13.3529,x:258.3,y:219.2,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:4.5701,x:236.3,y:483.65,regX:27.6}},{t:this.Heel_L,p:{regY:9.9,rotation:2.6993,x:225.5,y:538.7,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-4.9242,x:223.7,y:362.6,regX:55.8}},{t:this.Forearm_L,p:{regY:16,scaleX:0.726,scaleY:0.726,rotation:-43.3913,x:245.8,y:330.9,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.7261,scaleY:0.7261,rotation:0.1385,x:246.5,y:252.4,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7261,scaleY:0.7261,rotation:-58.0069,x:300.5,y:385.7,regX:22.8,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:6.327,x:319.35,y:437.7,regX:27.6,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:33.9,scaleX:0.7258,scaleY:0.7258,rotation:-52.7239,x:224.35,y:368.4,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:6.323,x:307.15,y:492.8,regX:23.7,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.726,scaleY:0.726,rotation:10.325,x:204.2,y:308.25,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:35.5185,x:247.45,y:245.95,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-8.1582,x:190.2,y:387.8,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:346.2}},{t:this.Torso,p:{rotation:10.5523,x:251.65,y:228.25,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:14.0465,x:258.2,y:215.3,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:6.2459,x:228.7,y:481.25,regX:27.6}},{t:this.Heel_L,p:{regY:9.9,rotation:3.9103,x:216.35,y:535.95,regX:20.6}},{t:this.Thigh_L,p:{regY:34.1,scaleX:0.726,scaleY:0.726,rotation:-1.5428,x:223.2,y:359.4,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:-56.2739,x:256.2,y:326.7,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:-7.5952,x:246.35,y:248.55,regX:28.6,regY:16.1}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:-74.5407,x:321.8,y:367.7,regX:22.8,regY:9.9}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.3,rotation:2.8875,x:313.6,y:447,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-46.9892,x:226.05,y:368.75,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:2.8831,x:304.55,y:502.8,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:19.7208,x:197.8,y:304.15,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:41.8241,x:247.55,y:247.05,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.2,scaleX:0.726,scaleY:0.726,rotation:4.9294,x:170.9,y:380.15,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:347.15}},{t:this.Torso,p:{rotation:10.5025,x:251.9,y:229.3,regX:102.5,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:11.0155,x:258.25,y:216.35,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:13.5901,x:218.2,y:483.15,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:11.7218,x:199,y:536,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:3.6862,x:224,y:361.7,regX:55.9}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:-59.6901,x:267.9,y:325.4,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:-16.1603,x:246.3,y:249.75,regX:28.5,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:-74.3047,x:335.75,y:362.45,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:-0.5477,x:306.95,y:455.55,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-41.2531,x:227.7,y:368.75,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:-0.5525,x:301.35,y:511.7,regX:23.7,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:29.1151,x:192.1,y:299.35,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:48.1299,x:247.7,y:248.1,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.2,scaleX:0.7259,scaleY:0.7259,rotation:18.0229,x:152.9,y:369.8,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:348.1}},{t:this.Torso,p:{rotation:10.4508,x:251.9,y:230.35,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:7.9851,x:258.4,y:217.35,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:20.9364,x:207.95,y:484,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:19.5324,x:182.05,y:533.95,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:8.9207,x:224.75,y:363.8,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:-63.1086,x:279,y:322.45,regX:18.6}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:-24.7257,x:246.6,y:250.85,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:-74.0692,x:348.85,y:355.5,regX:22.8,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:-3.9896,x:299.45,y:463.1,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-35.5178,x:229.45,y:368.8,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:-3.9938,x:297.2,y:519.35,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:38.5097,x:186.9,y:294,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:54.436,x:247.75,y:249.3,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:31.1158,x:136.7,y:356.75,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:349.05}},{t:this.Torso,p:{rotation:10.3996,x:252.05,y:231.55,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.8}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:4.9543,x:258.35,y:218.4,regY:159.2}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:28.2816,x:197.9,y:483.8,regX:27.6}},{t:this.Heel_L,p:{regY:9.9,rotation:27.3443,x:165.75,y:529.9,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:14.156,x:225.65,y:365.8,regX:55.9}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:-66.526,x:289.3,y:318.05,regX:18.4}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:-33.2906,x:246.75,y:252,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:-73.8325,x:361.05,y:346.7,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:-7.4303,x:291.3,y:469.45,regX:27.6,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-29.7821,x:231.15,y:368.55,regX:56.1}},{t:this.Heel_R,p:{regY:10.8,rotation:-7.4336,x:292.45,y:525.85,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:47.9053,x:182.55,y:288.1,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:60.7425,x:247.9,y:250.3,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:44.2088,x:122.7,y:341.5,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:350}},{t:this.Torso,p:{rotation:10.3493,x:252.25,y:232.5,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:1.9228,x:258.5,y:219.35,regY:159.1}},{t:this.Calf_L,p:{regY:19.7,scaleX:0.7258,scaleY:0.7258,rotation:35.6274,x:188.05,y:482.35,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:35.1543,x:150.25,y:524.25,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:19.3912,x:226.45,y:367.75,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:-69.9434,x:298.85,y:312,regX:18.4}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:-41.8564,x:246.85,y:253.1,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:-73.5978,x:372.05,y:336.45,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.3,rotation:-10.8699,x:282.6,y:474.55,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-24.0481,x:232.7,y:368.4,regX:56}},{t:this.Heel_R,p:{regY:10.7,rotation:-10.8741,x:287.1,y:530.8,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:57.2997,x:179,y:281.8,regY:14.6,regX:20.6}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:67.0479,x:247.95,y:251.5,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:57.3014,x:111.25,y:324.35,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:350.9}},{t:this.Torso,p:{rotation:10.3002,x:252.45,y:233.55,regX:102.5,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:-1.0996,x:258.55,y:220.4,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:42.9715,x:178.55,y:480.15,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:42.9664,x:135.75,y:516.75,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:24.6264,x:227.35,y:369.6,regX:55.9}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:-73.3604,x:307.15,y:304.75,regX:18.4}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:-50.4209,x:247,y:254.1,regX:28.6,regY:16.1}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:-73.3597,x:381.5,y:324.75,regX:22.9,regY:9.9}}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.Calf_R,p:{regY:20.3,rotation:-10.8839,x:283.15,y:474.2,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:33.9,scaleX:0.7259,scaleY:0.7259,rotation:-24.0618,x:233.4,y:368.15,regX:56}},{t:this.Heel_R,p:{regY:10.7,rotation:-10.8853,x:287.7,y:530.75,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.726,scaleY:0.726,rotation:57.2966,x:179.55,y:282.05,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:67.0379,x:248.8,y:251.65,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.726,scaleY:0.726,rotation:57.2966,x:112.6,y:324.25,regY:9.6}},{t:this.Hip,p:{regX:101.8,regY:102.4,y:350}},{t:this.Torso,p:{rotation:10.3116,x:253.3,y:233.15,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7268,scaleY:0.7268,rotation:-1.1429,x:259.5,y:220.25,regY:159.1}},{t:this.Calf_L,p:{regY:19.7,scaleX:0.7259,scaleY:0.7259,rotation:42.9718,x:179.5,y:480.15,regX:27.6}},{t:this.Heel_L,p:{regY:9.9,rotation:42.9717,x:136.75,y:516.75,regX:20.5}},{t:this.Thigh_L,p:{regY:34.1,scaleX:0.7261,scaleY:0.7261,rotation:24.6364,x:228.15,y:369.4,regX:55.8}},{t:this.Forearm_L,p:{regY:16,scaleX:0.7261,scaleY:0.7261,rotation:-73.3404,x:308.1,y:304.1,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.7261,scaleY:0.7261,rotation:-50.4212,x:248.45,y:253.45,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:-73.3412,x:382.55,y:324.3,regX:22.9,regY:10}}]}).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:-8.4682,x:279.95,y:475.1,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-22.5973,x:233,y:367.85,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:-8.4682,x:282.15,y:531.85,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:43.1713,x:182,y:287.9,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:62.4796,x:248.7,y:252.2,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.2,scaleX:0.7259,scaleY:0.7259,rotation:13.2601,x:127.5,y:345.6,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:350.7}},{t:this.Torso,p:{rotation:10.3774,x:253.15,y:233.75,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:1.7856,x:259.45,y:221,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:51.3449,x:184.25,y:479.55,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:51.3432,x:136.65,y:509.6,regX:20.5}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:22.7288,x:229.3,y:367.15,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:-57.814,x:291.55,y:319.25,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:-34.2301,x:248.35,y:254.05,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7261,scaleY:0.7261,rotation:-57.8128,x:357.8,y:358.6,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:-6.051,x:276.8,y:475.85,regX:27.6,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-21.1308,x:232.5,y:367.3,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:-6.0505,x:276.65,y:532.65,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:29.0466,x:184.9,y:293.6,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:57.9212,x:248.4,y:252.7,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-30.7721,x:146.05,y:363.05,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:351.4}},{t:this.Torso,p:{rotation:10.4447,x:253.1,y:234.35,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:4.7225,x:259.45,y:221.65,regY:159.2}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:59.7163,x:189.15,y:478.75,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:59.7179,x:137.7,y:501.55,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:20.8199,x:230.4,y:364.85,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:-42.2862,x:271.65,y:329.1,regX:18.6}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:-18.0378,x:248.3,y:254.7,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7261,scaleY:0.7261,rotation:-42.2858,x:324.85,y:384.75,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:-3.6337,x:273.65,y:476.5,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-19.6646,x:232.15,y:366.8,regX:56.1}},{t:this.Heel_R,p:{regY:10.8,rotation:-3.6342,x:271.05,y:533.25,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:14.9216,x:188.2,y:298.9,regY:14.5,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:53.363,x:248.25,y:253.25,regX:30,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-74.8078,x:167.6,y:376.1,regY:9.7}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:352.15}},{t:this.Torso,p:{rotation:10.5131,x:252.95,y:234.9,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:7.6573,x:259.4,y:222.2,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:68.0894,x:194.1,y:477.85,regX:27.7}},{t:this.Heel_L,p:{regY:10,rotation:68.0915,x:139.85,y:492.95,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:18.9113,x:231.65,y:362.5,regX:55.9}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:-26.7578,x:249.85,y:333.2,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:-1.8463,x:248.2,y:255.35,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:-26.7583,x:286.2,y:401.1,regX:22.8,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:-1.2169,x:270.4,y:477.05,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-18.1988,x:231.65,y:366.35,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:-1.2183,x:265.5,y:533.7,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:0.7961,x:191.75,y:303.95,regY:14.5,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:48.8055,x:248.1,y:253.75,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.2,scaleX:0.7259,scaleY:0.7259,rotation:-118.8385,x:190.75,y:384.05,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:352.9}},{t:this.Torso,p:{rotation:10.5794,x:252.95,y:235.5,regX:102.5,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:10.5941,x:259.4,y:222.9,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:76.463,x:199.05,y:476.45,regX:27.6}},{t:this.Heel_L,p:{regY:9.9,rotation:76.4631,x:143.2,y:483.55,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:17.0026,x:232.85,y:360,regX:55.9}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.7261,scaleY:0.7261,rotation:-11.2306,x:227.95,y:331.05,regX:18.4}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:14.3394,x:248.05,y:255.9,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:-11.2301,x:244.85,y:406.15,regX:22.8,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:0.7547,x:262.75,y:476.3,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-15.4141,x:229.3,y:363.9,regX:56}},{t:this.Heel_R,p:{regY:10.7,rotation:0.2167,x:255.85,y:532.65,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-10.0977,x:206.15,y:312.85,regY:14.5,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:34.37,x:248.05,y:250.05,regX:30.1,regY:15}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-106.2807,x:220.05,y:391.6,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:349.1}},{t:this.Torso,p:{rotation:10.5794,x:252.9,y:231.7,regX:102.5,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:11.9963,x:259.35,y:219,regY:159.2}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:62.4545,x:228.15,y:477.35,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:62.4559,x:175.55,y:497.8,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:2.9806,x:232.65,y:356.2,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:-3.5485,x:223.7,y:326,regX:18.4}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:17.6543,x:248.05,y:252.05,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:-3.5479,x:230.4,y:402.5,regX:22.9,regY:9.9}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.3,rotation:2.7332,x:254.95,y:474.95,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-12.628,x:226.85,y:361.05,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:1.6555,x:246.1,y:531.2,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-20.9963,x:223.2,y:317.75,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:19.9358,x:248,y:246.35,regX:30,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-93.7204,x:251.45,y:392.35,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:345.25}},{t:this.Torso,p:{rotation:10.5794,x:252.9,y:227.85,regX:102.5,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:13.3987,x:259.45,y:215.15,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:48.4474,x:257.55,y:471.1,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:48.4487,x:211.45,y:503.6,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-11.0362,x:232.5,y:352.45,regX:55.8}},{t:this.Forearm_L,p:{regY:16,scaleX:0.7261,scaleY:0.7261,rotation:4.1278,x:219.55,y:320.6,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:20.9684,x:248,y:248.2,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:4.1283,x:215.95,y:397.4,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:4.7103,x:247.2,y:473.2,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-9.8421,x:224.5,y:358,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:3.0952,x:236.4,y:529,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-31.8957,x:241.75,y:317.95,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:5.5006,x:248,y:242.65,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.2,scaleX:0.7259,scaleY:0.7259,rotation:-81.1675,x:283.55,y:385.9,regY:9.7}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:341.4}},{t:this.Torso,p:{rotation:10.5794,x:252.85,y:224,regX:102.5,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:14.8004,x:259.4,y:211.35,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:34.4408,x:285.3,y:457.75,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:34.4415,x:248.65,y:500.4,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-25.0597,x:232.4,y:348.75,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:11.8096,x:215.45,y:315.15,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:24.2833,x:247.9,y:244.2,regX:28.5,regY:16.1}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:11.811,x:201.6,y:390.6,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:6.688,x:239.4,y:470.85,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-7.0569,x:222.4,y:354.75,regX:56.1}},{t:this.Heel_R,p:{regY:10.8,rotation:4.5345,x:226.8,y:526.25,regX:23.7,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-42.7938,x:260.85,y:313.5,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:-8.9286,x:248,y:238.9,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-68.6068,x:314.5,y:372.35,regY:9.7}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:337.55}},{t:this.Torso,p:{rotation:10.5794,x:252.8,y:220.15,regX:102.5,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:16.2024,x:259.45,y:207.5,regY:159.2}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:20.4332,x:310.15,y:437.85,regX:27.6}},{t:this.Heel_L,p:{regY:9.9,rotation:20.434,x:284.8,y:488.1,regX:20.6}},{t:this.Thigh_L,p:{regY:34.1,scaleX:0.726,scaleY:0.726,rotation:-39.0824,x:232.3,y:344.9,regX:55.9}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.7261,scaleY:0.7261,rotation:19.4909,x:211.4,y:309.35,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:27.598,x:247.85,y:240.4,regX:28.5,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:19.4915,x:187.7,y:382.2,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:8.6654,x:231.6,y:468.2,regX:27.6,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:33.9,scaleX:0.7258,scaleY:0.7258,rotation:-4.2727,x:220.25,y:351.25,regX:56.1}},{t:this.Heel_R,p:{regY:10.8,rotation:5.9757,x:217.2,y:523.2,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-53.6916,x:279.05,y:304.2,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:-23.3619,x:247.95,y:235.15,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-56.0474,x:342.65,y:352,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:333.7}},{t:this.Torso,p:{rotation:10.5794,x:252.75,y:216.25,regX:102.5,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:17.6044,x:259.6,y:203.65,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:6.4276,x:330.2,y:412.5,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:6.4277,x:317.8,y:467.4,regX:20.6}},{t:this.Thigh_L,p:{regY:34.1,scaleX:0.726,scaleY:0.726,rotation:-53.1046,x:232.1,y:341.15,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:27.1731,x:207.55,y:303.35,regX:18.6}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:30.9123,x:247.8,y:236.55,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:27.1746,x:174.2,y:372.3,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:15.3249,x:218.55,y:472,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:2.3218,x:220.55,y:354.45,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:13.1732,x:197.55,y:524.85,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-58.7487,x:288.3,y:302.15,regY:14.7,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:-31.6234,x:247.5,y:238.5,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-60.632,x:356,y:344.3,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:337.35}},{t:this.Torso,p:{rotation:10.561,x:252.5,y:219.75,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:16.1825,x:259.2,y:207.15,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:1.4588,x:324.35,y:427.45,regX:27.7}},{t:this.Heel_L,p:{regY:9.9,rotation:2.3981,x:316.7,y:483.1,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-48.0363,x:230.95,y:347.05,regX:55.8}},{t:this.Forearm_L,p:{regY:16,scaleX:0.726,scaleY:0.726,rotation:33.4576,x:194.55,y:296.9,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:42.7302,x:247.6,y:239.5,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:33.4633,x:153.65,y:362.05,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:21.9854,x:205.25,y:474.2,regX:27.6,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:8.9205,x:220.95,y:357.55,regX:56}},{t:this.Heel_R,p:{regY:10.7,rotation:20.3706,x:178.2,y:524.05,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-63.8039,x:296.5,y:298.7,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:-39.8836,x:247.15,y:241.75,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.2,scaleX:0.7259,scaleY:0.7259,rotation:-65.2175,x:368.05,y:334.9,regY:9.7}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:341}},{t:this.Torso,p:{rotation:10.5428,x:252.35,y:223.15,regX:102.4,scaleX:0.7264,scaleY:0.7264,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:14.7581,x:258.9,y:210.8,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:-3.505,x:317.55,y:441.95,regX:27.7}},{t:this.Heel_L,p:{regY:10,rotation:-1.6245,x:314.65,y:497.95,regX:20.5}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-42.9678,x:229.65,y:352.65,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:39.7416,x:183.65,y:288.2,regX:18.6}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:54.5483,x:247.25,y:242.4,regX:28.5,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7261,scaleY:0.7261,rotation:39.7527,x:135.7,y:348.6,regX:22.9,regY:9.9}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:28.6454,x:192.35,y:474.75,regX:27.7,scaleX:0.7263,scaleY:0.7263}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:15.5202,x:221.35,y:360.65,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:27.5686,x:159.4,y:521.15,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-68.8604,x:303.8,y:294.1,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:-48.1452,x:246.8,y:244.95,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-69.801,x:378.35,y:324.1,regY:9.7}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:344.65}},{t:this.Torso,p:{rotation:10.523,x:252.1,y:226.65,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:13.3357,x:258.55,y:214.35,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:-8.4733,x:309.8,y:456.05,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:-5.6514,x:311.95,y:512.05,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-37.9005,x:228.4,y:358.2,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:46.0252,x:175.35,y:277.25,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:66.3669,x:247.1,y:245.4,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:46.0421,x:120.7,y:332.4,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:35.3047,x:179.75,y:473.85,regX:27.7,scaleX:0.7263,scaleY:0.7263}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:22.1197,x:221.75,y:363.7,regX:56}},{t:this.Heel_R,p:{regY:10.7,rotation:34.7662,x:141.5,y:515.9,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-73.9178,x:309.8,y:288.65,regY:14.6,regX:20.6}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:-56.4054,x:246.35,y:248.25,regX:30,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-74.3845,x:386.85,y:311.95,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:348.3}},{t:this.Torso,p:{rotation:10.5034,x:252.05,y:230.1,regX:102.5,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:11.9139,x:258.2,y:217.95,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:-13.4441,x:301.4,y:469.7,regX:27.7}},{t:this.Heel_L,p:{regY:10,rotation:-9.6789,x:308.1,y:525,regX:20.5}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-32.8323,x:227.2,y:363.65,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:52.3093,x:169.85,y:265.15,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:78.184,x:246.95,y:248.4,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7261,scaleY:0.7261,rotation:52.3314,x:109.5,y:314.05,regX:22.9,regY:9.9}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:41.9644,x:167.6,y:471.4,regX:27.7,scaleX:0.7263,scaleY:0.7263}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:28.7192,x:222.2,y:366.8,regX:56}},{t:this.Heel_R,p:{regY:10.7,rotation:41.9648,x:124.7,y:508.7,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-78.9735,x:314.35,y:282.15,regY:14.5,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:-64.6661,x:246,y:251.5,regX:30,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.726,scaleY:0.726,rotation:-78.969,x:393.6,y:298.8,regY:9.7}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:351.9}},{t:this.Torso,p:{rotation:10.4839,x:251.8,y:233.55,regX:102.5,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:10.4903,x:257.85,y:221.5,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:-18.4121,x:292.2,y:482.65,regX:27.7}},{t:this.Heel_L,p:{regY:9.9,rotation:-13.7092,x:303.7,y:537.05,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-27.7629,x:225.95,y:369.15,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:58.5933,x:167.6,y:252.2,regX:18.4}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:90,x:246.7,y:251.35,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7261,scaleY:0.7261,rotation:58.6216,x:102,y:294.35,regX:22.9,regY:9.9}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:48.8175,x:173.3,y:475.35,regX:27.7,scaleX:0.7263,scaleY:0.7263}},{t:this.Thigh_R,p:{regY:33.9,scaleX:0.7258,scaleY:0.7258,rotation:26.4697,x:223.75,y:368.8,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:48.8188,x:126.45,y:507.3,regX:23.6,scaleX:0.7262,scaleY:0.7262}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-74.3292,x:305.8,y:300.15,regY:14.5,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:-51.4214,x:246.35,y:254.35,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-74.3243,x:383.35,y:323.1,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:354.55}},{t:this.Torso,p:{rotation:10.4999,x:251.85,y:236.25,regX:102.5,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:10.5096,x:258,y:224.25,regY:159.2}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:-15.1567,x:286.8,y:484.45,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:-11.3921,x:295.25,y:539.6,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-25.8994,x:225.9,y:370.3,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:48.5001,x:169.75,y:271.2,regX:18.4}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:78.2222,x:246.85,y:254.65,regX:28.6,regY:16.1}},{t:this.Palm_L,p:{scaleX:0.7261,scaleY:0.7261,rotation:48.5225,x:112.55,y:324.15,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:55.6723,x:179.15,y:478.95,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:24.2212,x:225.25,y:370.8,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:55.6702,x:128.95,y:505.25,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-69.6844,x:294,y:315.7,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:-38.1782,x:246.7,y:257.25,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.2,scaleX:0.7259,scaleY:0.7259,rotation:-69.6795,x:369.45,y:344.75,regY:9.7}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:357.2}},{t:this.Torso,p:{rotation:10.5159,x:251.8,y:239.1,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.8}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:10.528,x:258.2,y:226.8,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:-11.8996,x:281.4,y:486,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:-9.0793,x:286.7,y:541.65,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-24.0368,x:225.8,y:371.55,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:38.4061,x:175.05,y:289.65,regX:18.6}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:66.4418,x:246.9,y:257.85,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7261,scaleY:0.7261,rotation:38.4235,x:127.9,y:351.55,regX:22.8,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:62.5263,x:185.05,y:482.35,regX:27.6,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:33.9,scaleX:0.7258,scaleY:0.7258,rotation:21.9712,x:226.9,y:372.65,regX:56.1}},{t:this.Heel_R,p:{regY:10.8,rotation:62.5235,x:132.3,y:502.65,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-65.0402,x:279.45,y:328.05,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:-24.9332,x:246.9,y:260.1,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-65.0359,x:352.2,y:363.15,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:359.85}},{t:this.Torso,p:{rotation:10.5315,x:251.8,y:241.8,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:10.5452,x:258.3,y:229.5,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:-8.6427,x:276.15,y:487.35,regX:27.6}},{t:this.Heel_L,p:{regY:9.9,rotation:-6.7645,x:278.2,y:543.25,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-22.1737,x:225.7,y:372.7,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:28.3128,x:182.95,y:306.55,regX:18.4}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:54.6605,x:247,y:261.05,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7261,scaleY:0.7261,rotation:28.3244,x:147.7,y:375.55,regX:22.8,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:69.3801,x:191.15,y:485.55,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:19.7221,x:228.45,y:374.45,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:69.376,x:136.4,y:499.55,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-60.3963,x:263.1,y:336.8,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:-11.6887,x:247.2,y:263.05,regX:30,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-60.3899,x:332.8,y:377.6,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:362.55}},{t:this.Torso,p:{rotation:10.5462,x:251.85,y:244.55,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:10.5648,x:258.4,y:232.15,regY:159.1}},{t:this.Calf_L,p:{regY:19.7,scaleX:0.7258,scaleY:0.7258,rotation:-5.3849,x:270.95,y:488.25,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:-4.4499,x:269.8,y:544.6,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-20.3088,x:225.65,y:373.8,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:18.2187,x:193.75,y:321.55,regX:18.4}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:42.8793,x:247.15,y:264.2,regX:28.6,regY:16.1}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:18.2244,x:171.25,y:395.6,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.3,rotation:76.2332,x:197.3,y:488.25,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:17.4735,x:230.1,y:376,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:76.2289,x:141.4,y:495.9,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-55.7524,x:245.85,y:341.4,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:1.5487,x:247.6,y:265.8,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-55.7461,x:311.95,y:387.75,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:365.2}},{t:this.Torso,p:{rotation:10.5622,x:251.8,y:247.35,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:10.582,x:258.55,y:234.85,regY:159.1}},{t:this.Calf_L,p:{regY:19.7,scaleX:0.7258,scaleY:0.7258,rotation:-2.1289,x:265.8,y:489.1,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:-2.133,x:261.3,y:545.35,regX:20.5}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-18.4464,x:225.6,y:374.95,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:8.1264,x:206.55,y:334.3,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:31.0988,x:247.3,y:267.45,regX:28.6,regY:16.1}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:8.1274,x:197.3,y:410.95,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:62.2528,x:224.3,y:491.6,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:3.4325,x:228.9,y:374.6,regX:56}},{t:this.Heel_R,p:{regY:10.7,rotation:62.2478,x:171.95,y:512.35,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-42.5355,x:237.05,y:336.75,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:8.3414,x:247.5,y:261.8,regX:30.1,regY:15}},{t:this.Palm_R,p:{regX:24.2,scaleX:0.7259,scaleY:0.7259,rotation:-46.2273,x:291.1,y:396.7,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:361.4}},{t:this.Torso,p:{rotation:10.5598,x:251.8,y:243.5,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:11.2755,x:258.5,y:231,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:-0.4529,x:258.6,y:488.4,regX:27.6}},{t:this.Heel_L,p:{regY:9.9,rotation:-0.9224,x:252.55,y:544.3,regX:20.5}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-15.0655,x:225.1,y:371.8,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:-4.7486,x:215.65,y:335.5,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.7261,scaleY:0.7261,rotation:23.3592,x:247.05,y:263.7,regX:28.6,regY:16.1}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:-8.4025,x:223.8,y:412.3,regX:22.8,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:48.2709,x:251.75,y:487.85,regX:27.7,scaleX:0.7263,scaleY:0.7263}},{t:this.Thigh_R,p:{regY:33.9,scaleX:0.7258,scaleY:0.7258,rotation:-10.6022,x:227.9,y:373.05,regX:56.1}},{t:this.Heel_R,p:{regY:10.8,rotation:48.267,x:205.85,y:520.7,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-29.319,x:228.25,y:331.1,regY:14.5,regX:20.6}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:15.1379,x:247.5,y:257.9,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-36.7104,x:267.5,y:401.8,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:357.55}},{t:this.Torso,p:{rotation:10.5587,x:251.8,y:239.7,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.8}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:11.9682,x:258.35,y:227.1,regY:159.2}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:1.2179,x:251.35,y:487.2,regX:27.7}},{t:this.Heel_L,p:{regY:9.9,rotation:0.2793,x:243.6,y:542.85,regX:20.5}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-11.6845,x:224.65,y:368.8,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.7261,scaleY:0.7261,rotation:-17.6299,x:225.4,y:335.35,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:15.6182,x:246.9,y:259.95,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:-24.9372,x:250.7,y:408.4,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:34.2896,x:277.7,y:477.2,regX:27.6,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-24.6443,x:226.8,y:371.55,regX:56.1}},{t:this.Heel_R,p:{regY:10.8,rotation:34.2864,x:241.15,y:520.15,regX:23.6,scaleX:0.7262,scaleY:0.7262}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-16.1027,x:219.95,y:324.5,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:21.9289,x:247.5,y:253.9,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-27.1936,x:242.15,y:402.05,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:353.75}},{t:this.Torso,p:{rotation:10.5561,x:251.75,y:235.9,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.8}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:12.6603,x:258.4,y:223.15,regY:159.1}},{t:this.Calf_L,p:{regY:19.7,scaleX:0.7258,scaleY:0.7258,rotation:2.8933,x:243.85,y:485.6,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:1.4908,x:234.6,y:541.15,regX:20.5}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-8.3045,x:224.3,y:365.7,regX:55.9}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:-30.5107,x:235.5,y:333.85,regX:18.4}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:7.8784,x:246.7,y:256.15,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7261,scaleY:0.7261,rotation:-41.4741,x:276.55,y:399.4,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.3,rotation:20.308,x:300.85,y:460.15,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-38.6845,x:225.55,y:370,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:20.3044,x:275.6,y:510.65,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:-2.8868,x:211.8,y:316.8,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:28.7244,x:247.45,y:249.85,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-17.6759,x:216.05,y:397.55,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:350}},{t:this.Torso,p:{rotation:10.5549,x:251.7,y:232.1,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.8}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:13.3529,x:258.3,y:219.2,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:4.5701,x:236.3,y:483.65,regX:27.6}},{t:this.Heel_L,p:{regY:9.9,rotation:2.6993,x:225.5,y:538.7,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:-4.9242,x:223.75,y:362.6,regX:55.8}},{t:this.Forearm_L,p:{regY:16,scaleX:0.726,scaleY:0.726,rotation:-43.3913,x:245.8,y:330.9,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.7261,scaleY:0.7261,rotation:0.1385,x:246.5,y:252.4,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7261,scaleY:0.7261,rotation:-58.0069,x:300.5,y:385.75,regX:22.8,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:6.327,x:319.35,y:437.7,regX:27.6,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:33.9,scaleX:0.7258,scaleY:0.7258,rotation:-52.7239,x:224.35,y:368.4,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:6.323,x:307.15,y:492.8,regX:23.7,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.726,scaleY:0.726,rotation:10.325,x:204.2,y:308.25,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:35.5185,x:247.5,y:245.95,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:-8.1582,x:190.2,y:387.8,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:346.2}},{t:this.Torso,p:{rotation:10.5523,x:251.65,y:228.25,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:14.0465,x:258.2,y:215.3,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:6.2459,x:228.7,y:481.25,regX:27.6}},{t:this.Heel_L,p:{regY:9.9,rotation:3.9103,x:216.35,y:535.95,regX:20.6}},{t:this.Thigh_L,p:{regY:34.1,scaleX:0.726,scaleY:0.726,rotation:-1.5428,x:223.25,y:359.4,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:-56.2739,x:256.2,y:326.7,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:-7.5952,x:246.35,y:248.55,regX:28.6,regY:16.1}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:-74.5407,x:321.85,y:367.7,regX:22.8,regY:9.9}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.3,rotation:2.8875,x:313.6,y:447,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-46.9892,x:226.05,y:368.75,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:2.8831,x:304.55,y:502.8,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:19.7208,x:197.8,y:304.15,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:41.8241,x:247.6,y:247,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.2,scaleX:0.726,scaleY:0.726,rotation:4.9294,x:170.9,y:380.15,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:347.15}},{t:this.Torso,p:{rotation:10.5025,x:251.9,y:229.25,regX:102.5,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:11.0155,x:258.25,y:216.35,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:13.5901,x:218.2,y:483.15,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:11.7218,x:199,y:536,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:3.6862,x:224.05,y:361.7,regX:55.9}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:-59.6901,x:267.9,y:325.4,regX:18.5}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:-16.1603,x:246.3,y:249.75,regX:28.5,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:-74.3047,x:335.8,y:362.45,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:-0.5477,x:306.95,y:455.55,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-41.2531,x:227.7,y:368.75,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:-0.5525,x:301.35,y:511.7,regX:23.7,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:29.1151,x:192.1,y:299.35,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:48.1299,x:247.75,y:248.1,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.2,scaleX:0.7259,scaleY:0.7259,rotation:18.0229,x:152.9,y:369.8,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:348.1}},{t:this.Torso,p:{rotation:10.4508,x:251.9,y:230.35,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:7.9851,x:258.4,y:217.35,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:20.9364,x:207.95,y:484,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:19.5324,x:182.05,y:533.95,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:8.9207,x:224.8,y:363.8,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:-63.1086,x:279,y:322.45,regX:18.6}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:-24.7257,x:246.6,y:250.85,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:-74.0692,x:348.9,y:355.5,regX:22.8,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:-3.9896,x:299.45,y:463.1,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-35.5178,x:229.45,y:368.8,regX:56}},{t:this.Heel_R,p:{regY:10.8,rotation:-3.9938,x:297.2,y:519.35,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:38.5097,x:186.9,y:294,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:54.436,x:247.8,y:249.3,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:31.1158,x:136.7,y:356.75,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:349.05}},{t:this.Torso,p:{rotation:10.3996,x:252.05,y:231.5,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.8}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:4.9543,x:258.35,y:218.4,regY:159.2}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:28.2816,x:197.9,y:483.8,regX:27.6}},{t:this.Heel_L,p:{regY:9.9,rotation:27.3443,x:165.75,y:529.9,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:14.156,x:225.7,y:365.8,regX:55.9}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:-66.526,x:289.3,y:318.05,regX:18.4}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:-33.2906,x:246.75,y:252,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:-73.8325,x:361.1,y:346.75,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.4,rotation:-7.4303,x:291.3,y:469.45,regX:27.6,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-29.7821,x:231.15,y:368.55,regX:56.1}},{t:this.Heel_R,p:{regY:10.8,rotation:-7.4336,x:292.45,y:525.85,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:47.9053,x:182.55,y:288.1,regY:14.6,regX:20.7}},{t:this.Arm_R,p:{scaleX:0.726,scaleY:0.726,rotation:60.7425,x:247.9,y:250.3,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:44.2088,x:122.7,y:341.5,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:350}},{t:this.Torso,p:{rotation:10.3493,x:252.25,y:232.5,regX:102.4,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:1.9228,x:258.5,y:219.35,regY:159.1}},{t:this.Calf_L,p:{regY:19.7,scaleX:0.7258,scaleY:0.7258,rotation:35.6274,x:188.05,y:482.35,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:35.1543,x:150.25,y:524.25,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:19.3912,x:226.5,y:367.75,regX:55.8}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:-69.9434,x:298.85,y:312,regX:18.4}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:-41.8564,x:246.85,y:253.1,regX:28.6,regY:16.2}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:-73.5978,x:372.05,y:336.45,regX:22.9,regY:10}}]},1).to({state:[{t:this.Calf_R,p:{regY:20.3,rotation:-10.8699,x:282.6,y:474.55,regX:27.7,scaleX:0.7264,scaleY:0.7264}},{t:this.Thigh_R,p:{regY:34,scaleX:0.7258,scaleY:0.7258,rotation:-24.0481,x:232.7,y:368.4,regX:56}},{t:this.Heel_R,p:{regY:10.7,rotation:-10.8741,x:287.1,y:530.8,regX:23.6,scaleX:0.7263,scaleY:0.7263}},{t:this.Forearm_R,p:{scaleX:0.7259,scaleY:0.7259,rotation:57.2997,x:179,y:281.8,regY:14.6,regX:20.6}},{t:this.Arm_R,p:{scaleX:0.7261,scaleY:0.7261,rotation:67.0479,x:248,y:251.45,regX:30.1,regY:15.1}},{t:this.Palm_R,p:{regX:24.1,scaleX:0.7259,scaleY:0.7259,rotation:57.3014,x:111.25,y:324.35,regY:9.6}},{t:this.Hip,p:{regX:101.9,regY:102.5,y:350.9}},{t:this.Torso,p:{rotation:10.3002,x:252.45,y:233.5,regX:102.5,scaleX:0.7265,scaleY:0.7265,regY:21.7}},{t:this.Head,p:{scaleX:0.7267,scaleY:0.7267,rotation:-1.0996,x:258.55,y:220.4,regY:159.1}},{t:this.Calf_L,p:{regY:19.8,scaleX:0.7258,scaleY:0.7258,rotation:42.9715,x:178.55,y:480.15,regX:27.6}},{t:this.Heel_L,p:{regY:10,rotation:42.9664,x:135.75,y:516.75,regX:20.6}},{t:this.Thigh_L,p:{regY:34.2,scaleX:0.726,scaleY:0.726,rotation:24.6264,x:227.4,y:369.6,regX:55.9}},{t:this.Forearm_L,p:{regY:16.1,scaleX:0.726,scaleY:0.726,rotation:-73.3604,x:307.15,y:304.75,regX:18.4}},{t:this.Arm_L,p:{scaleX:0.726,scaleY:0.726,rotation:-50.4209,x:247,y:254.1,regX:28.6,regY:16.1}},{t:this.Palm_L,p:{scaleX:0.7262,scaleY:0.7262,rotation:-73.3597,x:381.55,y:324.75,regX:22.9,regY:9.9}}]},1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -2314,16 +3173,66 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
+	// Timers
+	this.Countdown5 = new lib.Countdown5();
+	this.Countdown5.name = "Countdown5";
+	this.Countdown5.setTransform(5649.35,56.05,1,1,0,0,0,109.5,55.4);
+	this.Countdown5.visible = false;
+
+	this.Countdown10 = new lib.Countdown10();
+	this.Countdown10.name = "Countdown10";
+	this.Countdown10.setTransform(3728.85,56.05,1,1,0,0,0,109.5,55.4);
+	this.Countdown10.visible = false;
+
+	this.Countdown15 = new lib.Countdown15();
+	this.Countdown15.name = "Countdown15";
+	this.Countdown15.setTransform(1810.5,53.1,1,1,0,0,0,109.5,53.1);
+	this.Countdown15.visible = false;
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.Countdown15},{t:this.Countdown10},{t:this.Countdown5}]}).wait(1));
+
+	// TopParts
+	this.instance = new lib.CachedBmp_100();
+	this.instance.setTransform(1640.3,844.8,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	// StaticActors
+	this.DrivewayGuyStanding = new lib.DrivewayGuyStanding();
+	this.DrivewayGuyStanding.name = "DrivewayGuyStanding";
+	this.DrivewayGuyStanding.setTransform(4193.05,712.5,1,1,0,0,0,85.8,244.8);
+	this.DrivewayGuyStanding.visible = false;
+
+	this.TinderBoxBubble = new lib.TinderBoxBubble();
+	this.TinderBoxBubble.name = "TinderBoxBubble";
+	this.TinderBoxBubble.setTransform(1314.25,434.15,1,1,0,0,0,224.7,89.3);
+	this.TinderBoxBubble.visible = false;
+
+	this.PorchManSitting = new lib.PorchManSitting();
+	this.PorchManSitting.name = "PorchManSitting";
+	this.PorchManSitting.setTransform(1648.5,864.05,1,1,0,0,0,193.1,215.8);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.PorchManSitting},{t:this.TinderBoxBubble},{t:this.DrivewayGuyStanding}]}).wait(1));
+
 	// Masks
-	this.instance = new lib.LivingroomMask();
-	this.instance.setTransform(3652.45,606.25,1,1,0,0,0,189.5,473.6);
+	this.instance_1 = new lib.LivingroomMask();
+	this.instance_1.setTransform(3652.45,606.25,1,1,0,0,0,189.5,473.6);
 
-	this.instance_1 = new lib.PorchMask();
-	this.instance_1.setTransform(1701.4,581.1,1,1,0,0,0,189.5,473.6);
+	this.instance_2 = new lib.PorchMask();
+	this.instance_2.setTransform(1701.4,581.1,1,1,0,0,0,189.5,473.6);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.instance_1}]}).wait(1));
 
 	// Actors
+	this.PorchDogLying = new lib.PorchDogLying();
+	this.PorchDogLying.name = "PorchDogLying";
+	this.PorchDogLying.setTransform(866.25,958.25,1,1,0,0,0,0,0.5);
+
+	this.PorchDogStanding = new lib.PorchDogStanding();
+	this.PorchDogStanding.name = "PorchDogStanding";
+	this.PorchDogStanding.setTransform(832.2,857.65,1,1,0,0,0,102.4,100.7);
+	this.PorchDogStanding.visible = false;
+
 	this.ConfusedGuy = new lib.ConfusedGuy();
 	this.ConfusedGuy.name = "ConfusedGuy";
 	this.ConfusedGuy.setTransform(2888.15,561.8,1,1,0,0,0,72.4,73.4);
@@ -2334,7 +3243,7 @@ if (reversed == null) { reversed = false; }
 	this.Guy.setTransform(1011.05,672.9,0.8486,0.8485,0,0,0,248.7,344.7);
 	this.Guy.visible = false;
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.Guy},{t:this.ConfusedGuy}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.Guy},{t:this.ConfusedGuy},{t:this.PorchDogStanding},{t:this.PorchDogLying}]}).wait(1));
 
 	// Backgrounds
 	this.Scene2 = new lib.Scene2();
@@ -2357,7 +3266,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Scenes, new cjs.Rectangle(0,-372,7762,1536.4), null);
+}).prototype = getMCSymbolPrototype(lib.Scenes, new cjs.Rectangle(0,-372,7762,1970.9), null);
 
 
 // stage content:
@@ -2490,6 +3399,9 @@ if (reversed == null) { reversed = false; }
 					
 					stage.Scenes.Scene1.Scene1Interactive2.gotoAndStop(0)
 					createjs.Tween.get(stage.Scenes.Scene1.Scene1Interactive2, { loop: false }).wait(1000).to({ alpha: 1 }, 500, createjs.Ease.sineInOut)
+					
+					stage.Scenes.TinderBoxBubble.visible = false;
+					
 					break;
 				case 2:
 					sounds["news"] = createjs.Sound.play("news", {interrupt: createjs.Sound.INTERRUPT_ANY, loop:-1})
@@ -2497,6 +3409,9 @@ if (reversed == null) { reversed = false; }
 				
 					stage.Scenes.Scene2.TVScreen.visible = true;
 				
+					stage.Scenes.Countdown10.startTimer()
+					stage.Scenes.Countdown10.visible = true;
+					
 					stage.Scenes.Scene2.Scene2Banner.gotoAndStop(0)
 					createjs.Tween.get(stage.Scenes.Scene2.Scene2Banner, { loop: false }).to({ alpha: 1 }, 500, createjs.Ease.sineInOut)
 					
@@ -2520,6 +3435,9 @@ if (reversed == null) { reversed = false; }
 					
 					sounds["dog"] = createjs.Sound.play("dog", {interrupt: createjs.Sound.INTERRUPT_ANY, loop:-1})
 					sounds["dog"].volume = 0.5
+					
+					stage.Scenes.Countdown5.startTimer()
+					stage.Scenes.Countdown5.visible = true
 				
 					stage.Scenes.Scene3.Scene3Banner.gotoAndStop(0)
 					createjs.Tween.get(stage.Scenes.Scene3.Scene3Banner, { loop: false }).to({ alpha: 1 }, 500, createjs.Ease.sineInOut)
@@ -2530,6 +3448,10 @@ if (reversed == null) { reversed = false; }
 				
 					stage.Scenes.Scene4.Scene4Banner.gotoAndStop(0)
 					createjs.Tween.get(stage.Scenes.Scene4.Scene4Banner, { loop: false }).to({ alpha: 1 }, 500, createjs.Ease.sineInOut)
+		
+					// 1027 - 466
+					createjs.Tween.get(stage.Scenes.Scene4.CarTraffic, { loop: false }).to({ y: 744 }, 1500, createjs.Ease.cubicOut)
+					
 					break;
 			}
 		}
@@ -2557,6 +3479,9 @@ if (reversed == null) { reversed = false; }
 					.call(function() {
 						createjs.Sound.stop("fire");
 					})
+					
+					stage.Scenes.TinderBoxBubble.visible = false;
+					stage.Scenes.Countdown15.visible = false
 				
 					createjs.Tween.get(stage.Scenes.Scene1.Scene1Banner, { loop: false }).to({ alpha: 0 }, 250, createjs.Ease.sineInOut)
 		
@@ -2579,6 +3504,8 @@ if (reversed == null) { reversed = false; }
 					})
 				
 					createjs.Tween.get(stage.Scenes.Scene2.Scene2Banner, { loop: false }).to({ alpha: 0 }, 250, createjs.Ease.sineInOut)
+					
+					stage.Scenes.Countdown10.visible = false
 					
 					stage.Scenes.Scene2.Scene2Interactive1.gotoAndStop(0)
 					stage.Scenes.Scene2.Scene2Interactive1.QuestionCircle1.gotoAndStop(0)
@@ -2624,6 +3551,8 @@ if (reversed == null) { reversed = false; }
 						createjs.Sound.stop("dog");
 					})
 				
+					stage.Scenes.Countdown5.visible = false
+					
 					stage.Scenes.Scene3.Scene3Banner.gotoAndStop(0)
 					createjs.Tween.get(stage.Scenes.Scene3.Scene3Banner, { loop: false }).to({ alpha: 0 }, 250, createjs.Ease.sineInOut)
 					break;
@@ -2645,33 +3574,58 @@ if (reversed == null) { reversed = false; }
 		}
 		
 		function startForestFire() {
+			isTransitioning = true
+		
 			sounds["fire"] = createjs.Sound.play("fire", {interrupt: createjs.Sound.INTERRUPT_ANY, loop:-1})
 			sounds["fire"].volume = 0.5;
 			
 			stage.Scenes.Scene1.gotoAndStop(1)
 			stage.Scenes.Scene1.Scene1Banner.gotoAndStop(1)
 			
+			stage.Scenes.PorchManSitting.visible = false;
+			stage.Scenes.PorchDogLying.visible = false;
+			stage.Scenes.PorchDogStanding.visible = true;
+			stage.Scenes.PorchDogStanding.visible = true;
+			
+			stage.Scenes.TinderBoxBubble.visible = true;
+			stage.Scenes.Countdown15.startTimer()
+			stage.Scenes.Countdown15.visible = true;
+			
 			stage.Scenes.Guy.gotoAndStop(0)
 			stage.Scenes.Guy.scaleX = -1;
 			stage.Scenes.Guy.visible = true;
+			
+			isTransitioning = false
 		}
 		
 		function clearForestFire() {
+			isTransitioning = true
+			
 			createjs.Sound.stop("fire");
 			
 			stage.Scenes.Scene1.gotoAndStop(0)
 			stage.Scenes.Scene1.Scene1Banner.gotoAndStop(0)
 			
+			stage.Scenes.PorchManSitting.visible = true;
+			stage.Scenes.PorchDogLying.visible = true;
+			stage.Scenes.PorchDogStanding.visible = false;
+			
+			stage.Scenes.TinderBoxBubble.visible = false;
+			stage.Scenes.Countdown15.visible = false;
+			
 			stage.Scenes.Guy.visible = false;
 			stage.Scenes.Guy.gotoAndStop(0)
 			stage.Scenes.Guy.scaleX = -1;
+			
+			isTransitioning = false
 		}
 		
 		function enterCar() {
-			
+			isTransitioning = true
 			
 			var guyTarget = stage.Scenes.Guy
-					
+			guyTarget.visible = true
+			stage.Scenes.DrivewayGuyStanding.visible = false
 			guyTarget.play()
 			var tween = createjs.Tween.get(guyTarget, {
 				loop: false
@@ -2686,10 +3640,34 @@ if (reversed == null) { reversed = false; }
 					guyTarget.visible = false
 					stage.Scenes.Scene3.Car.gotoAndStop(1)
 					stage.Scenes.Scene3.CarBG.gotoAndStop(1)
+					
+					createjs.Tween.get(stage.Scenes.Scene3.Car, {
+						loop: false
+					})
+					.to({
+						scaleX: 0.1,
+						scaleY: 0.1,
+					}, 1500, createjs.Ease.sineInOut)
+					.call(function() {
+						
+					})
+					
+					createjs.Tween.get(stage.Scenes.Scene3.CarBG, {
+						loop: false
+					})
+					.to({
+						scaleX: 0.1,
+						scaleY: 0.1,
+					}, 1500, createjs.Ease.sineInOut)
+					.call(function() {
+						isTransitioning = false
+					})
 				})
 		}
 		
 		function exitCar() {
+			isTransitioning = true
+			
 			createjs.Sound.stop("car");
 			
 			var guyTarget = stage.Scenes.Guy
@@ -2707,6 +3685,7 @@ if (reversed == null) { reversed = false; }
 				}, 1500, createjs.Ease.sineInOut)
 				.call(function() {
 					guyTarget.stop()
+					isTransitioning = false
 				})
 		}
 		
@@ -2730,9 +3709,12 @@ if (reversed == null) { reversed = false; }
 				endScene(currentScene)
 				stage.Scenes.Guy.visible = true
 				stage.Scenes.ConfusedGuy.visible = false
-			
+				stage.Scenes.DrivewayGuyStanding.visible = false
+				stage.Scenes.TinderBoxBubble.visible = true;
+				
 				var sceneTarget = stage.Scenes
 				var tween = createjs.Tween.get(sceneTarget, {
+		
 					loop: false
 				})
 					.to({
@@ -2809,6 +3791,12 @@ if (reversed == null) { reversed = false; }
 							guyTarget.visible = false
 							stage.Scenes.ConfusedGuy.visible = true
 						}
+						
+						if (currentScene == 3) {
+							guyTarget.visible = false
+							stage.Scenes.DrivewayGuyStanding.visible = true
+						}
+						
 					})
 			}
 		}
@@ -2857,7 +3845,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(960,168,6802,996.4000000000001);
+p.nominalBounds = new cjs.Rectangle(960,168,6802,1430.9);
 // library properties:
 lib.properties = {
 	id: '6D8E34D5D95C4BFDB5DC718CB2FE9D07',
@@ -2867,14 +3855,18 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_73.png", id:"CachedBmp_73"},
-		{src:"images/CachedBmp_69.png", id:"CachedBmp_69"},
-		{src:"images/CachedBmp_63.png", id:"CachedBmp_63"},
-		{src:"images/CachedBmp_62.png", id:"CachedBmp_62"},
-		{src:"images/CachedBmp_18.png", id:"CachedBmp_18"},
-		{src:"images/CachedBmp_17.png", id:"CachedBmp_17"},
-		{src:"images/CachedBmp_16.png", id:"CachedBmp_16"},
-		{src:"images/CachedBmp_1.png", id:"CachedBmp_1"},
+		{src:"images/CachedBmp_86.png", id:"CachedBmp_86"},
+		{src:"images/CachedBmp_82.png", id:"CachedBmp_82"},
+		{src:"images/CachedBmp_12.png", id:"CachedBmp_12"},
+		{src:"images/CachedBmp_99.png", id:"CachedBmp_99"},
+		{src:"images/CachedBmp_98.png", id:"CachedBmp_98"},
+		{src:"images/CachedBmp_97.png", id:"CachedBmp_97"},
+		{src:"images/CachedBmp_90.png", id:"CachedBmp_90"},
+		{src:"images/CachedBmp_76.png", id:"CachedBmp_76"},
+		{src:"images/CachedBmp_32.png", id:"CachedBmp_32"},
+		{src:"images/CachedBmp_31.png", id:"CachedBmp_31"},
+		{src:"images/CachedBmp_118.png", id:"CachedBmp_118"},
+		{src:"images/CachedBmp_25.png", id:"CachedBmp_25"},
 		{src:"images/index_atlas_1.png", id:"index_atlas_1"},
 		{src:"images/index_atlas_2.png", id:"index_atlas_2"},
 		{src:"images/index_atlas_3.png", id:"index_atlas_3"},
@@ -2883,7 +3875,10 @@ lib.properties = {
 		{src:"images/index_atlas_6.png", id:"index_atlas_6"},
 		{src:"images/index_atlas_7.png", id:"index_atlas_7"},
 		{src:"images/index_atlas_8.png", id:"index_atlas_8"},
-		{src:"images/index_atlas_9.png", id:"index_atlas_9"}
+		{src:"images/index_atlas_9.png", id:"index_atlas_9"},
+		{src:"images/index_atlas_10.png", id:"index_atlas_10"},
+		{src:"images/index_atlas_11.png", id:"index_atlas_11"},
+		{src:"images/index_atlas_12.png", id:"index_atlas_12"}
 	],
 	preloads: []
 };
