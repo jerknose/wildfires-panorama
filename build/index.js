@@ -1103,7 +1103,7 @@ if (reversed == null) { reversed = false; }
 	this.text_2.lineHeight = 64;
 	this.text_2.lineWidth = 758;
 	this.text_2.parent = this;
-	this.text_2.setTransform(97,755);
+	this.text_2.setTransform(97,785);
 
 	this.text_3 = new cjs.Text("Save lives\nPreserve our health from toxic smoke\nLearn to live with fire", "48px 'PT Sans Pro Narrow Light'", "#FFFFFF");
 	this.text_3.lineHeight = 64;
@@ -7576,60 +7576,77 @@ if (reversed == null) { reversed = false; }
 		stage.Scene4Interactive1.addEventListener("click", toggleInteractive, this);
 		stage.Scene4Interactive2.addEventListener("click", toggleInteractive, this);
 		
-		
 		stage.Scenes.Scene2.BabyPackable.BabyIllustration.addEventListener("mouseover", mouseoverInteractive, this);
 		stage.Scenes.Scene2.BabyPackable.BabyIllustration.addEventListener("mouseout", mouseoutInteractive, this);
+		stage.Scenes.Scene2.BabyPackable.addEventListener("click", selectItem, this);
 		
 		stage.Scenes.Scene2.BeddingPackable.BeddingIllustration.addEventListener("mouseover", mouseoverInteractive, this);
 		stage.Scenes.Scene2.BeddingPackable.BeddingIllustration.addEventListener("mouseout", mouseoutInteractive, this);
+		stage.Scenes.Scene2.BeddingPackable.addEventListener("click", selectItem, this);
 		
 		stage.Scenes.Scene2.ClothingPackable.ClothingIllustration.addEventListener("mouseover", mouseoverInteractive, this);
 		stage.Scenes.Scene2.ClothingPackable.ClothingIllustration.addEventListener("mouseout", mouseoutInteractive, this);
+		stage.Scenes.Scene2.ClothingPackable.addEventListener("click", selectItem, this);
 		
 		stage.Scenes.Scene2.DocumentsPackable.DocumentsIllustration.addEventListener("mouseover", mouseoverInteractive, this);
 		stage.Scenes.Scene2.DocumentsPackable.DocumentsIllustration.addEventListener("mouseout", mouseoutInteractive, this);
+		stage.Scenes.Scene2.DocumentsPackable.addEventListener("click", selectItem, this);
 		
 		stage.Scenes.Scene2.ElectronicsPackable.ElectronicsIllustration.addEventListener("mouseover", mouseoverInteractive, this);
 		stage.Scenes.Scene2.ElectronicsPackable.ElectronicsIllustration.addEventListener("mouseout", mouseoutInteractive, this);
+		stage.Scenes.Scene2.ElectronicsPackable.addEventListener("click", selectItem, this);
 		
 		stage.Scenes.Scene2.EmergencyPackable.EmergencyIllustration.addEventListener("mouseover", mouseoverInteractive, this);
 		stage.Scenes.Scene2.EmergencyPackable.EmergencyIllustration.addEventListener("mouseout", mouseoutInteractive, this);
+		stage.Scenes.Scene2.EmergencyPackable.addEventListener("click", selectItem, this);
 		
 		stage.Scenes.Scene2.FoodPackable.FoodIllustration.addEventListener("mouseover", mouseoverInteractive, this);
 		stage.Scenes.Scene2.FoodPackable.FoodIllustration.addEventListener("mouseout", mouseoutInteractive, this);
+		stage.Scenes.Scene2.FoodPackable.addEventListener("click", selectItem, this);
 		
 		stage.Scenes.Scene2.GlassesPackable.GlassesIllustration.addEventListener("mouseover", mouseoverInteractive, this);
 		stage.Scenes.Scene2.GlassesPackable.GlassesIllustration.addEventListener("mouseout", mouseoutInteractive, this);
+		stage.Scenes.Scene2.GlassesPackable.addEventListener("click", selectItem, this);
 		
 		stage.Scenes.Scene2.HygienePackable.HygieneIllustration.addEventListener("mouseover", mouseoverInteractive, this);
 		stage.Scenes.Scene2.HygienePackable.HygieneIllustration.addEventListener("mouseout", mouseoutInteractive, this);
+		stage.Scenes.Scene2.HygienePackable.addEventListener("click", selectItem, this);
 		
 		stage.Scenes.Scene2.KitchenwarePackable.KitchenwareIllustration.addEventListener("mouseover", mouseoverInteractive, this);
 		stage.Scenes.Scene2.KitchenwarePackable.KitchenwareIllustration.addEventListener("mouseout", mouseoutInteractive, this);
+		stage.Scenes.Scene2.KitchenwarePackable.addEventListener("click", selectItem, this);
 		
 		stage.Scenes.Scene2.MapsPackable.MapsIllustration.addEventListener("mouseover", mouseoverInteractive, this);
 		stage.Scenes.Scene2.MapsPackable.MapsIllustration.addEventListener("mouseout", mouseoutInteractive, this);
+		stage.Scenes.Scene2.MapsPackable.addEventListener("click", selectItem, this);
 		
 		stage.Scenes.Scene2.MedicinePackable.MedicineIllustration.addEventListener("mouseover", mouseoverInteractive, this);
 		stage.Scenes.Scene2.MedicinePackable.MedicineIllustration.addEventListener("mouseout", mouseoutInteractive, this);
+		stage.Scenes.Scene2.MedicinePackable.addEventListener("click", selectItem, this);
 		
 		stage.Scenes.Scene2.MoneyPackable.MoneyIllustration.addEventListener("mouseover", mouseoverInteractive, this);
 		stage.Scenes.Scene2.MoneyPackable.MoneyIllustration.addEventListener("mouseout", mouseoutInteractive, this);
+		stage.Scenes.Scene2.MoneyPackable.addEventListener("click", selectItem, this);
 		
 		stage.Scenes.Scene2.PetsPackable.PetsIllustration.addEventListener("mouseover", mouseoverInteractive, this);
 		stage.Scenes.Scene2.PetsPackable.PetsIllustration.addEventListener("mouseout", mouseoutInteractive, this);
+		stage.Scenes.Scene2.PetsPackable.addEventListener("click", selectItem, this);
 		
 		stage.Scenes.Scene2.PowerPackable.PowerIllustration.addEventListener("mouseover", mouseoverInteractive, this);
 		stage.Scenes.Scene2.PowerPackable.PowerIllustration.addEventListener("mouseout", mouseoutInteractive, this);
+		stage.Scenes.Scene2.PowerPackable.addEventListener("click", selectItem, this);
 		
 		stage.Scenes.Scene2.ShelterPackable.ShelterIllustration.addEventListener("mouseover", mouseoverInteractive, this);
 		stage.Scenes.Scene2.ShelterPackable.ShelterIllustration.addEventListener("mouseout", mouseoutInteractive, this);
+		stage.Scenes.Scene2.ShelterPackable.addEventListener("click", selectItem, this);
 		
 		stage.Scenes.Scene2.ValuablesPackable.ValuablesIllustration.addEventListener("mouseover", mouseoverInteractive, this);
 		stage.Scenes.Scene2.ValuablesPackable.ValuablesIllustration.addEventListener("mouseout", mouseoutInteractive, this);
+		stage.Scenes.Scene2.ValuablesPackable.addEventListener("click", selectItem, this);
 		
 		stage.Scenes.Scene2.WaterPackable.WaterIllustration.addEventListener("mouseover", mouseoverInteractive, this);
 		stage.Scenes.Scene2.WaterPackable.WaterIllustration.addEventListener("mouseout", mouseoutInteractive, this);
+		stage.Scenes.Scene2.WaterPackable.addEventListener("click", selectItem, this);
 		
 		stage.Scenes.Scene3.Packable1.addEventListener("click", packItem, this);
 		stage.Scenes.Scene3.Packable2.addEventListener("click", packItem, this);
@@ -7646,6 +7663,99 @@ if (reversed == null) { reversed = false; }
 			[1292, 677],
 			[1292, 590],
 		];
+		
+		var selected = [];
+		function selectItem(e) {
+			var instanceId = e.currentTarget.name;
+			var instanceSelected = selected.indexOf(instanceId);
+			
+			if (instanceSelected === -1) {
+				if (selected.length < 6) {
+					selected.push(instanceId)
+				}
+			} else {
+				selected.splice(instanceSelected, 1)
+			}
+			
+			var dimVal = 0.25
+			stage.Scenes.Scene2.BabyPackable.alpha = dimVal
+			stage.Scenes.Scene2.BeddingPackable.alpha = dimVal
+			stage.Scenes.Scene2.ClothingPackable.alpha = dimVal
+			stage.Scenes.Scene2.DocumentsPackable.alpha = dimVal
+			stage.Scenes.Scene2.ElectronicsPackable.alpha = dimVal
+			stage.Scenes.Scene2.EmergencyPackable.alpha = dimVal
+			stage.Scenes.Scene2.FoodPackable.alpha = dimVal
+			stage.Scenes.Scene2.GlassesPackable.alpha = dimVal
+			stage.Scenes.Scene2.HygienePackable.alpha = dimVal
+			stage.Scenes.Scene2.KitchenwarePackable.alpha = dimVal
+			stage.Scenes.Scene2.MapsPackable.alpha = dimVal
+			stage.Scenes.Scene2.MedicinePackable.alpha = dimVal
+			stage.Scenes.Scene2.MoneyPackable.alpha = dimVal
+			stage.Scenes.Scene2.PetsPackable.alpha = dimVal
+			stage.Scenes.Scene2.PowerPackable.alpha = dimVal
+			stage.Scenes.Scene2.ShelterPackable.alpha = dimVal
+			stage.Scenes.Scene2.ValuablesPackable.alpha = dimVal
+			stage.Scenes.Scene2.WaterPackable.alpha = dimVal
+			
+			for (var i = 0; i < selected.length; i++) {
+				switch(selected[i]) {
+					case 'BabyPackable':
+					stage.Scenes.Scene2.BabyPackable.alpha = 1
+					break;
+					case 'BeddingPackable':
+					stage.Scenes.Scene2.BeddingPackable.alpha = 1
+					break;
+					case 'ClothingPackable':
+					stage.Scenes.Scene2.ClothingPackable.alpha = 1
+					break;
+					case 'DocumentsPackable':
+					stage.Scenes.Scene2.DocumentsPackable.alpha = 1
+					break;
+					case 'ElectronicsPackable':
+					stage.Scenes.Scene2.ElectronicsPackable.alpha = 1
+					break;
+					case 'EmergencyPackable':
+					stage.Scenes.Scene2.EmergencyPackable.alpha = 1
+					break;
+					case 'FoodPackable':
+					stage.Scenes.Scene2.FoodPackable.alpha = 1
+					break;
+					case 'GlassesPackable':
+					stage.Scenes.Scene2.GlassesPackable.alpha = 1
+					break;
+					case 'HygienePackable':
+					stage.Scenes.Scene2.HygienePackable.alpha = 1
+					break;
+					case 'KitchenwarePackable':
+					stage.Scenes.Scene2.KitchenwarePackable.alpha = 1
+					break;
+					case 'MapsPackable':
+					stage.Scenes.Scene2.MapsPackable.alpha = 1
+					break;
+					case 'MedicinePackable':
+					stage.Scenes.Scene2.MedicinePackable.alpha = 1
+					break;
+					case 'MoneyPackable':
+					stage.Scenes.Scene2.MoneyPackable.alpha = 1
+					break;
+					case 'PetsPackable':
+					stage.Scenes.Scene2.PetsPackable.alpha = 1
+					break;
+					case 'PowerPackable':
+					stage.Scenes.Scene2.PowerPackable.alpha = 1
+					break;
+					case 'ShelterPackable':
+					stage.Scenes.Scene2.ShelterPackable.alpha = 1
+					break;
+					case 'ValuablesPackable':
+					stage.Scenes.Scene2.ValuablesPackable.alpha = 1
+					break;			
+					case 'WaterPackable':
+					stage.Scenes.Scene2.WaterPackable.alpha = 1
+					break;
+				}
+			}
+		}
 		
 		function packItem(e) {
 			var instanceId = parseInt(e.currentTarget.name.slice(-1));
